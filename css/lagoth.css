@@ -1,0 +1,51 @@
+div {
+    margin-left: auto;
+    min-width: 310px;
+    text-align:left;
+    position: relative;
+    left: 3px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    border: 6px solid;
+    text-align: center;
+}
+
+.smallfont {
+    border: 1px solid;
+    font-size: 36px;
+}
+
+.bigfont {
+    border: 1px solid;
+    font-size: 60px;
+}
+
+.toprow {
+    border-top: 4px solid;
+    border-color: red;
+}
+
+.rightcol {
+    border-left: 4px solid;
+    border-left-color: red;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.brutto {
+    display: none;
+}
+
+.staticcell {
+    font-weight: bold;
+}
+
+.potfunction {
+    font-size: 36px;
+}

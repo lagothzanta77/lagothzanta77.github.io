@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/lagoth.css">
+        <script src="js/library.js"></script>
+        <title>Sudoku by Lagoth Zanta</title>
+    </head>
+    <body onresize=bigresize()>
+        <div id="welcome">
+            <p class="pcenter"><b>Ez itt Lagoth Zanta szórakoztatóan idegesítő összegányolt Sudoku programja.</b><br></p>
+            <p>A program működésének ellenőrzése, tesztelése sajnos hagy maga után kivánnivalót. Ezt mindenképpen már az elején tisztázni kell.</p>
+            <p>Nem minden funkció működik megfelelően, de van esély rá, hogy valamennyire működik.</p>
+            <p>Mivel nem mindenki kapott egyforma szintű matematikai, logikai képzést, ezért lehetőség lesz puskázásra.
+                Sajnos a puskázási lehetőség a program indítását követően még nem működik, a puskázási alrendszert ugyanis fel kell tölteni.
+                A Puskázásért felelős Operatív Törzs / továbbiakban POT / feltöltése a játék indításakor automatikusan megkezdődik, azonban esetenként eltérő ideig tart.
+                Ezért a POT-hoz töltésjelző készült, azonban ez játékonként csak egyszer használható. Mivel a fejlesztő nem hisz a második esély intézményében.
+            </p>
+            <p>A játék végén a játékos pontjai megállapításra kerülnek teljesítménye alapján.
+                A POT használatához igénylést kell benyújtani a megfelelő menüpont kiválasztásával!
+                A POT igénylésének ára esetenként az aktuális pontegyenleg 10%-a - tehát ha a játékosnak van 1000 pontja 2 POT igénylés után, akkor az első után 10% tehát 100 pont levonással 900 pont marad, a második után ebből (900 pontból) megint 10% és 90 pont levonás jár, így marad 810 pontja a játékosnak 2 db POT igénylés után. Azt viszont még tudni kell, hogy természetesen a POT igénylés a program készítésekor hatályos magyar törvények alapján egyes meghatározott juttatásnak minősül.
+                Az igénylésért minden esetben fizetni kell játékpontokkal, akkor is ha később kiderül, hogy a POT még nem töltött fel, vagy valami egyéb technikai probléma lép fel.
+            </p>
+            <p>A sudoku tábla létrehozásához használt algoritmus neve: Vakvéletlen.</p>
+            <p>Sem a program készítője, sem a program maga, sem a böngésző, sem az operációs rendszer nem vállal felelősséget az égadta világon   
+                semmiért, minden felelősséget a játékos visel!
+            </p>
+            <p>A játék menete: A játékos a táblázat kívánt rubrikájába kattint az egérrel, vagy az érintőképernyőn, ekkor lenyílik egy kis menü, ahol kiválaszthatja az általa az adott rubrikában látni kívánt számot, ha az 
+                üreset választja, törli a rubrika addigi tartalmát.
+            </p>
+            <p>Ha a játékos elkészült a sudoku megfejtéssel, akkor a táblázat alatti menüben a két lehetőség közül (POT igénylés/Játék vége) a Játék vége-t válassza és nyomja meg az OK gombot, ezt követően a játékos     
+                teljesítménye kiértékelésre kerül.
+            </p>
+            <p>Mivel a játékkal szembeni egyik elvárás az volt, hogy offline is működjön / ennek több mint 99%-ban megfelel /, ezért a számítógépre semmilyen adatot önmagától nem ment el, nem tölt fel, ha a játékos az   
+                eredményét le akarja menteni, vagy lementi a böngészőben, vagy képernyőfotót készít, vagy azt csinál amit akar.
+            </p>
+            <p>Ha a játékos felkészült, kezdje el a játékot az "Apa, kezdődik!" feliratú gomb megnyomásával, mely egyben a fenti feltételek elfogadását is jelenti. </p>        
+            <button type="button" id="startbutton" onclick="bigfriendlybutton()">Apa, kezdődik!</button>
+            <noscript><p style="color:red"><b>Felhívjuk a JÁTÉKOS figyelmét arra az apró, ám nem elhanyagolható tényre, hogyha nem engedélyezi azt a javascriptet a böngészőben, vagy a reklámblokkolójában, 
+                akkor nagy ívben cseszheti ezt az egész sudokusdit!
+            </b></p></noscript>
+        </div>
+            <table>
+                <thead>
+                </thead>
+                <tbody id="mytable">
+                </tbody>
+            </table>
+        <div id="potselect" class="pcenter" style="display:none">
+            <p><button type="button" id="chargerbutton" onclick="chargetest()">Töltésjelző indítása!</button></p>
+            <p><select data-name="endgame" id="potselector">
+                <option value="potrequest">Pot igénylése!</option>
+                <option value="gameend">Kész vagyok és befejeztem a játékot</option>
+            </select> <button type="button" id="okbutton" onclick="potbutton()">OK</button>
+            </p>
+        </div>
+        <div id="potresult" class="pcenter" style="display:none" >
+            <p><b>A Puskázásért felelős Operatív Törzs válasza a POT igénylésre: </b><span data-name="potresult" style="color:red"></span></p>
+        </div>
+        <div class="pcenter" id="resultgame" style="display:none">
+            <p style="color:red"><b>POT használat száma: <span id="potcount"></span> </b></p>
+            <p style="color:red"><span class="brutto"><b>Bruttó POT használattal csökkentett </b></span><b>Eredmény: <span id="gameresult"></span> pont</b><br></p>
+            <p style="color:grey" class="pcenter"><span class="brutto"><b>Ebből levonások POT után fizetendő közterhek miatt:<br><br>
+                                Szociális hozzájárulás: <span id="szocho"></span> pont<br>
+                                Szakképzési hozzájárulás: <span id="szakho"></span> pont<br>
+                                Személyi jövedelemadó: <span id="szja"></span> pont<br>
+                                Társadalombiztosítási járulék: <span id="tbjar"></span> pont
+            </b><br><br></span></p>
+            <p style="color:red" class="pcenter"><span class="brutto" id="netto"><b>Végső Nettó eredmény: <span id="netto2"></span> pont</b><br></span></p>
+        </div>
+            <table>
+                <thead>
+                </thead>
+                <tbody id="mission">
+                </tbody>
+            </table>
+        <script src="js/control.js"></script>
+    </body>
+</html>
