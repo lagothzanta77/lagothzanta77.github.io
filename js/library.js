@@ -453,7 +453,7 @@ const alertcharger = [
 
 const awardmsg = [
     "A kapitalizmus a pénz diktatúrája",
-    "Második esélyben nincs - a fejlesztő mottója",
+    "Demokrácia van, második esély nincs - a fejlesztő mottója",
     "Ha nem lenne ott mindannyiunkban a gonosz, akkor nem is emberek volnánk, akkor mindenki angyal lenne - Angel c. sorozatból",
     "Inkább leveszem a szemüvegemet, homályosan sokkal szebb a világ - Polip c. sorozatból",
     "A demokráciában a korrupció azt a célt szolgálja, mint az olajozás a motornak, nem lehet meglenni nélküle - Polip c. sorozatból",
@@ -465,7 +465,7 @@ const awardmsg = [
     "A bölcs embert gyakran látod egyedül, a gyenge mindig a tömeggel megy",
     "Egy elképzelés értéke a megvalósításban van - Thomas Alva Edison",
     "Aki a legkevesebbet fizeti az alkalmazottaknak, a legkevesebbet kapja tőlük is - Malcolm Forbes",
-    "Ők azért nevetnek rajtam , mert más vagyok. Én azért nevetek rajtuk, mert mind ugyanolyanok - Kurt Cobain",
+    "Ők azért nevetnek rajtam, mert más vagyok. Én azért nevetek rajtuk, mert mind ugyanolyanok - Kurt Cobain",
     "A fiatalok tudják a szabályokat, de az öregek ismerik a kivételeket. - ismeretlen forrás",
     "Az emberek többsége nem figyel oda, csak ha veszélyt, vagy jutalmat szimatol. - ismeretlen forrás",
     "There is nothing more useless then a lock with a voiceprint\n\n (szabad fordításban: Nincs használhatatlanabb dolog, mint egy hangmintával nyílódó zár) - forrás Doctor Who sorozat.\n Ez a mondat volt a hangminta a sorozatban egy ajtózárhoz",
