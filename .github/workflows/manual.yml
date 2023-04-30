@@ -1,0 +1,13 @@
+name: HTML check
+on:
+  pull_request:
+     branches: main
+jobs:
+  htmltest:
+    runs-on: ubuntu-latest
+    steps:
+# set github directory
+    - name: change working directory
+      uses: actions/checkout@v2
+    - name: Send result
+      run: bash ./.test/test.sh
