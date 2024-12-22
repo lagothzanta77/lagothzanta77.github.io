@@ -49,9 +49,9 @@ function checkInput(result, inputId, maxPoint ) {
             document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
 	}
 	else {
-	        document.getElementById('outputcheck').innerHTML = pointnr+' /'+maxPoint+' pont ';
-		document.getElementById('outputcheck').style.display = 'block';
-		document.getElementById('outputcheck').style.color = 'green';
+	        document.getElementById('scoring').innerHTML = pointnr+' /'+maxPoint+' pont ';
+		document.getElementById('scoring').style.display = 'block';
+		document.getElementById('scoring').style.color = 'green';
 	}
     }
 }
