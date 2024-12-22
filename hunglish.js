@@ -39,11 +39,7 @@ function checkInput(result, inputId, maxPoint ) {
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-<<<<<<< HEAD
 	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a '+(cycleCount+1)+'kérdésre';
-=======
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a '+(cyclecount+1)+'kérdésre';
->>>>>>> d3c2674 (hunglish:add counter)
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 	}
