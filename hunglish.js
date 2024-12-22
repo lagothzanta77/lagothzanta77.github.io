@@ -35,11 +35,11 @@ function checkInput(result, inputId, maxPoint ) {
 	    const inputContent = document.getElementById(inputId).value;
 	    if (result[testNr][1] === inputContent) {
 		pointnr++;
-	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a '+(cycleCount+1)+'kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a(z) '+(cycleCount+1)+'. kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a '+(cycleCount+1)+'kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a(z) '+(cycleCount+1)+'. kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 	}
@@ -65,7 +65,7 @@ function resetCode() {
 }
 
 function start(result, maxCount) {
-    for (i=1;i<maxCount;i++) {
+    for (i=1;i<=maxCount;i++) {
 	randNr=Math.floor(Math.random() * (listArray.length));
 	testArray.push(listArray[randNr]);
 	listArray.splice(randNr,1);
@@ -84,7 +84,7 @@ loadCSV('wordbookae.txt').then(result => {
     document.getElementById('mainbutton').style.display = 'none';
     document.getElementById('myInputTest').style.display = 'none';
     document.getElementById('startbutton').onclick = () => { start(result, 10) };
-    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 11) };
+    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 10) };
 }).catch(error => {
     console.error('Error during loading of CSV!!', error);
 });
