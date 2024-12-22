@@ -35,7 +35,7 @@ function checkInput(result, inputId, maxPoint ) {
 	    const inputContent = document.getElementById(inputId).value;
 	    if (result[testNr][1] === inputContent) {
 		pointnr++;
-	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz';
+	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a '+(cyclecount+1)+'kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
