@@ -43,7 +43,7 @@ function checkInput(result, inputId, maxPoint ) {
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 	}
-	resetCode()
+	resetCode();
 	cycleCount++;
 	if ( cycleCount < testArray.length) {
             document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
