@@ -35,11 +35,11 @@ function checkInput(result, inputId, maxPoint ) {
 	    const inputContent = document.getElementById(inputId).value;
 	    if (result[testNr][1] === inputContent) {
 		pointnr++;
-	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a '+(cyclecount+1)+'kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a '+(cycleCount+1)+'kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a '+(cyclecount+1)+'kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a '+(cycleCount+1)+'kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 	}
