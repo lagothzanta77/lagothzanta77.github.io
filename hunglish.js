@@ -84,7 +84,7 @@ loadCSV('wordbookae.txt').then(result => {
     document.getElementById('mainbutton').style.display = 'none';
     document.getElementById('myInputTest').style.display = 'none';
     document.getElementById('startbutton').onclick = () => { start(result, 10) };
-    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 10) };
+    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 11) };
 }).catch(error => {
     console.error('Error during loading of CSV!!', error);
 });
