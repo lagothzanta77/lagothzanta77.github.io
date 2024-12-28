@@ -1,0 +1,222 @@
+1:coat:kabát
+2:duck:kacsa
+3:shell:kagyló
+4:cabin:kajut
+5:rooster:kakas
+6:hat:kalap
+7:guard:őr,kalauz
+8:spoon:kanál
+9:sofa:kanapé
+10:to receive:kap (valamit)
+11:fireplace:kandalló
+12:Fasten your seatbelts!:Öveket bekapcsolni!
+13:cabbage:káposzta
+14:barrier:kapu(1 hosszabb szó)
+15:gate:kapu(2 rövidebb szó)
+16:goalkeeper:kapus
+17:Christmas carol:karácsonyi dal
+18:slim:karcsú
+19:cardigan:kardigán
+20:cauliflower:karfiol
+21:conductor:karmester
+22:claw:karom
+23:to claw:karmol, kaparászik
+24:bracelet:karperec
+25:watch:karóra
+26:coffee-pot:kávéskanna
+27:soldier:katona
+28:goat:kecske
+29:nice:kedves
+30:Dear Jeanne!:Kedves Jeanne!
+31:to brush your hair:kefélni a hajadat
+32:Brussels sprout:kelbimbó
+33:Thank you for your letter of:...-n kelt leveledet köszönettel vettem
+34:chemistry:kémia
+35:campsite:kemping
+36:kangoroo:kengurú
+37:stove:kempingfőző, (sparhelt?)
+38:bread:kenyér
+39:post card:képeslap
+40:magazine:képes folyóirat
+41:to ask question:kérdez
+42:wheel:kerék
+43:to ride a bycicle:kerékpározik
+44:sales representative:ügynök, kerképviselő
+45:to look for:keres valamit
+46:gardener:kertész
+47:to do gardening:kertészkedik
+48:dungarees:kertésznadrág
+49:district:körzet
+50:knife:kés
+51:to be late:késik
+52:late:késő
+53:double room:kétágyas szoba
+54:cage:ketrec
+55:to deliver:kézbesít
+56:to shake hands with:kezet fog valakivel
+57:hand luggage: kézipoggyász
+58:handbag:kézitáska
+59:to write a cheque:kiállít egy csekket
+60:exhibition:kiállítás
+61:to shout:kiált
+62:kiáltottál:you shut
+63:Who is speaking?:Ki beszél?
+64:to sprain your wrist:kificamítani a csuklódat
+65:runway:kifutópálya
+66:port:kikötő
+67:view:kilátás
+68:shop window:kirakat
+69:to unload:kirakodik
+70:van:kisbusz,minifurgon
+71:to subtract:kivon (számot)
+72:outside:kívül valamin
+73:to jog:kocog
+74:sausage:kolbász
+75:petticoat:kombiné
+76:ferry:komp
+77:tin:konzerv
+78:vegetable patch:konyhakert
+79:tea towel:konyharuha
+80:cupboard:konyhaszekrény
+81:bald:kopasz
+82:steering wheel:kormánykerék
+83:to taste:kóstol
+84:it's foggy:ködös
+85:puppy:kölyökkutya
+86:elbow:könyök
+87:bookshop and stationer's:könyv és papírkereskedés
+88:roundabout:körhinta
+89:pear:körte
+90:area code:körzetszám
+91:to knit:kötni valamit
+92:bandage:kötés
+93:knitting pattern:kötésminta
+94:among:közé, sok között
+95:between:2 közé, között
+96:near:közel
+97:secondary school:középiskola
+98:audince:közönség
+99:cone:kút
+100:kennel:kutyaól
+101:to walk the dog: a kutyát sétáltatja
+102:I am sending ... separately:külön elküldöm neked ...
+103:different:eltérő, különböző
+104:suburb:külváros
+105:foot:lábfej
+106:doormat:lábtörlő
+107:toe:lábujj
+108:flat:lakás
+109:block of flats:lakóház
+110:caravan:karaván
+111:to switch the light off:lekapcsolni a lámpát
+112:to slow down:lassítani
+113:to have a temperature:láza van
+114:salmon:lazac
+115:to take someone's temperature:valaki lázát mérni
+116:to lie down:lefekszik
+117:to reserve a seat:helyet lefoglalni
+118:reserved seat:lefoglalt hely
+119:bedtime:lefekvési idő
+120:air mail:légiposta
+121:fly:légy (bogár)
+122:slope:lejtő
+123:to miss the train:lekésni a vonatot
+124:jam:lekvár
+125:to go downstairs:lemegy a lépcsőn
+126:record player:lemezjátszó
+127:vicar:lelkész
+128:to park:leparkol
+129:sheet:lepedő
+130:to put down:letesz, lerak
+131:to get off:leszáll járműről
+132:to kneel down:letérdel
+133:to hang up:leteszi a kagylót
+134:ladder:létra
+135:to sit down:leül
+136:leaf:levél (fa)
+137:letter:levél (postai)
+138:to write a letter:ír egy levelet
+139:to send a post card:küld egy képeslapot
+140:letter box:levélszekrény, postaláda
+141:soup:leves
+142:to get undressed:levetkőzni
+143:goose:liba
+144:to make a list:készít egy listát
+145:flour:liszt
+146:watering can:locsolókanna
+147:to steal:lop
+148:racing:versenyfutam
+149:to paddle:lubickol
+150:lazy:lusta
+151:stable:lóistálló
+152:this evening:ma este
+154:scarecrow:madárijesztő
+155:to be tall:magas(nak lenni)
+156:seed:mag(vetemény)
+157:raspberry:málna
+158:the next day:másnap
+159:the second of...:második(a)
+160:second floor:második emelet
+161:second class:másodosztály
+162:to climb:mászni
+163:to fail an exam:megbukik egy vizsgán
+164:to have a cold:megfázik
+166:to mend:megfoltoz(ruhát)
+167:to have a bath:megfürdik
+168:to cure:meggyógyít
+169:ladder:létra
+170:to get married:megházasodik
+171:to invite:meghív
+172:to weigh yourself:megmérnii magadat
+173:to thank:megköszön
+174:fully booked:megtelet
+175:to take someone's pulse:megmérni valaki pulzusát
+176:to lay to table:megterít
+177:I am hot:melegem van
+178:bee:méh
+179:greenhouse:melegház
+180:chest:mellkas
+181:beside:mellé, mellett
+182:to do the breststroke:mellen úszik
+183:Please,find enclosed...:Mellékelten...
+184:tracksuit:melegítő
+185:brooch:melltű
+186:bra:melltartó
+187:timetable:menetrend
+188:return ticket:menettérti jegy
+189:ambulance:mentőautó
+190:to measure:mérni valamit
+191:How much do I owe you?:Mivel tartozom ?
+192:steep:meredek
+193:scales:mérleg
+194:Which way is?:Merre van ?
+195:to read a story:mesét olvasni
+196:Is it far to ?:Messze van innen ?
+197:noodles:metélt (tészta)
+198:underground:metro
+199:underground station:metróállomás
+200:to walk barefoot:mezitláb járni
+201:naked:meztelen
+202:What is the weather like?:Milyen idő van ?
+203:What would you like?:Mit szeretne/parancsol?
+204:squirrel:mókus
+205:sentence:mondat
+206:to stay:maradni
+207:to growl:morogni
+208:to do washing:mosni valamit
+209:to wash up:mosogat
+210:have a wash:mosakszik
+211:flannel:mosdókesztyű
+212:sink:mosogató
+213:washing maschine:mosógép
+214:powerboat:motorcsónak
+215:the have a breakdown:a motor nem működik
+216:engine:mozdony, erőmű, erőmotor, erőforrás
+217:escalator:mozgólépcső
+218:to go to the cinema:moziba menni
+219:to go to work:munkába menni
+220:labourer:munkás
+221:geranium:muskátli
+222:mustard:mustár
+223:made of plastic:műanyagból készült
+224:operation theathre:műtőterem
