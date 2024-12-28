@@ -116,7 +116,7 @@
 116:spotted:pöttyös
 117:pullover:pulcsi
 118:counter:pult
-119:trump:púp
+119:hump:púp
 120:to kiss: puszit ad vkinetk, csőkol vkit
 121:to listen to the radio:a rádiót hallgatni
 122:rubber:radír
