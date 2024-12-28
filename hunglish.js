@@ -5,7 +5,8 @@ let badList=[];
 let randNR=0;
 let testNr=0;
 let cycleCount=0;
-let result=[ [],[],[] ]
+let result=[ [],[],[] ];
+let badAnswers=[];
 
 function resetgen() {
 
@@ -40,9 +41,12 @@ function checkInput(result, inputId, maxPoint ) {
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+result[testNr][1]+'- a(z) '+(cycleCount+1)+'. kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: ['+result[testNr][1]+'] a(z) '+(cycleCount+1)+'. kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
+		badAnrNr=badAnswers.length+1;
+		const tempContent=[ result[testArray[cycleCount]][2],result[testNr][1] ];
+		badAnswers.push(tempContent);
 	}
 	resetCode();
 	cycleCount++;
@@ -53,9 +57,47 @@ function checkInput(result, inputId, maxPoint ) {
 	        document.getElementById('scoring').innerHTML = pointnr+' /'+maxPoint+' pont ';
 		document.getElementById('scoring').style.display = 'block';
 		document.getElementById('scoring').style.color = 'green';
+		cycleCount=0;
+		document.getElementById('repeatbutton').style.display = 'block';
+		document.getElementById('mainbutton').style.display = 'none';
+		document.getElementById('inputtest').innerHTML = badAnswers[0][0];
 	}
     }
 }
+
+function repeater(badAnswers,inputId) {
+    if ( cycleCount < badAnswers.length) {
+	    document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
+	    testNr=badAnswers[cycleCount];
+	    const inputContent = document.getElementById(inputId).value;
+	    if (testNr[1] === inputContent) {
+		badAnswers.splice(cycleCount,1);
+	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a kérdésre';
+		document.getElementById('outputcheck').style.display = 'block';
+		document.getElementById('outputcheck').style.color = 'green';
+        } else {
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+testNr[1]+'- a  kérdésre';
+		document.getElementById('outputcheck').style.display = 'block';
+		document.getElementById('outputcheck').style.color = 'red';
+	}
+	resetCode();
+	cycleCount++;
+	if ( cycleCount < badAnswers.length) {
+	    document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
+	}
+	else {
+	    if ( badAnswers.length > 0 ) {
+		cycleCount=0;
+	        document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
+	    } else {
+		document.getElementById('inputtest').innerHTML = 'Done!';
+		document.getElementById('repeatbutton').style.display = 'none';
+		document.getElementById('myInputTest').style.display = 'none';
+	    }
+	}
+    }
+}
+
 
 function resetCode() {
      setTimeout(() => {
@@ -83,8 +125,10 @@ loadCSV('wordbookae.txt').then(result => {
 	listArray.push(i);
     }
     document.getElementById('mainbutton').style.display = 'none';
+    document.getElementById('repeatbutton').style.display = 'none';
     document.getElementById('myInputTest').style.display = 'none';
     document.getElementById('startbutton').onclick = () => { start(result, 10) };
+    document.getElementById('repeatbutton').onclick = () => { repeater(badAnswers,'myInputTest') };
     document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 10) };
 }).catch(error => {
     console.error('Error during loading of CSV!!', error);
