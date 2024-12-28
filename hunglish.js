@@ -7,10 +7,12 @@ let testNr=0;
 let cycleCount=0;
 let result=[ [],[],[] ];
 let badAnswers=[];
+let fLists=[ "wordbookae.txt" ];
+let flistCounter=0;
+let maxPoint=0;
 
 function resetgen() {
 
-    pointnr=0;
     testArray=[];
     listArray=[];
     badList=[];
@@ -30,7 +32,7 @@ async function loadCSV(fName) {
     return result;
 }
 
-function checkInput(result, inputId, maxPoint ) {
+function checkInput(result, inputId ) {
     if ( cycleCount < testArray.length) {
 	    document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
 	    testNr=testArray[cycleCount];
@@ -119,7 +121,7 @@ function start(result, maxCount) {
         document.getElementById('inputtest').innerHTML = result[testArray[0]][2];
 }
 
-loadCSV('wordbookae.txt').then(result => {
+loadCSV(fLists[0]).then(result => {
     resetgen();
     for (i=0;i<result.length;i++) {
 	listArray.push(i);
@@ -129,7 +131,8 @@ loadCSV('wordbookae.txt').then(result => {
     document.getElementById('myInputTest').style.display = 'none';
     document.getElementById('startbutton').onclick = () => { start(result, 10) };
     document.getElementById('repeatbutton').onclick = () => { repeater(badAnswers,'myInputTest') };
-    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest', 10) };
+    maxPoint=maxPoint+10;
+    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest') };
 }).catch(error => {
     console.error('Error during loading of CSV!!', error);
 });
