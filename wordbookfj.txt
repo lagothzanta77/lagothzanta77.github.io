@@ -1,0 +1,216 @@
+1:made of wood:fából készült
+2:frost:fagy
+3:ice-cream:fagylalt
+4:to have a headache:fáj a feje
+5:to have a stomach ache:fáj a hasa
+6:to have a toothache:fáj a foga
+7:dull:fakó
+8:to play squash:fallabdázik
+9:jeans:farmernadrág
+10:tail:farok
+11:board:fedélzet
+12:to milk a cow:fej (tehenet
+13:to dive:fejest ugrik
+14:blackbird:feketerigó
+15:to be laying:fekszik(le)
+16:to stand up:feláll
+17:shy:félénk
+18:to open a letter:felbont egy levelet
+19:to knock over:felborít
+20:to capsize:felborul
+21:towards to:valami felé
+22:to wake up:felébred
+23:term:félév
+24:beginning of term:félév kezdete
+25:skyscraper:felhőkarcoló
+26:half a litre:fél liter
+27:to go upstairs: felmegy a lépcsőn
+28:to get dressed:felöltözik
+29:to take off:felszáll(repülőre)
+30:to get on:felszáll(nem repülőre)
+31:to serve:felszolgál
+32:Is service included?:felszolgálási díjjal együtt?
+33:half past ten:fél 11
+34:to pitch a tent:felveri a sátrat
+35:to pick up:felvesz
+36:to pick up the receiver:felveszi a kagylót(telefon)
+37:metal:fém
+38:Delicious!:Fenséges!(finom)
+39:photographer:fényképész
+40:to take a photo:fényképez
+41:headlight:fényszúró
+42:to paint:fest
+43:painting:festmény
+44:painter:festőművész
+45:comb:fésű
+46:to comb your hair:fésülködsz
+47:nest:fészek
+48:younger than:fiatalabb mint
+49:careless:figyelmetlen,óvatlan
+50:pitch:focipálya
+51:hairdresser:fodrász
+52:to brush your teeth:mosni a fogadat
+53:toothbrush:fogkefe
+54:toothpaste:fogkrém
+55:job:foglalkozás
+56:garlic:fokhagyma
+57:river:folyó
+58:wool:fonal
+59:bustling:forgalmas
+60:traffic jam:forgalmi dugó
+61:to be fit:formában van
+62:designer:formatervező
+63:armchair:fotel
+64:maincourse:főfogás
+65:soil:föld
+66:to land:földet ér
+67:ground floor:földszint
+68:fringe:frufru
+69:It's windy:Fúj a szél
+70:to play football:focizik
+71:grass:fű
+72:ear:fül
+73:earrings:fülbevaló
+74:earphones:fülhallgató
+75:lawnmover:fűnyíró gép
+76:to have a bath:fürdik
+77:bathrobe:fürdőköpeny
+78:bathmath:fürdőszőnyeg
+79:with bathroom:fürdőszobával
+80:saw:fűrész
+81:grocery shop:fűszerbolt
+82:herbs:fűszernövények
+83:radiator:fűtőtest
+84:to mow the lawn:fűvet nyír
+85:excercise book:füzet
+86:to run a bath:fürdővizet enged
+87:wheat:gabona
+88:pigeon:galamb
+89:rake:gereblye
+90:to play guitar:gitározik
+91:to score a goal:gólt lő
+92:golf club:golfütő
+93:pin:gombostű
+94:ballpen:golyóstoll
+95:to perch:gubbaszt
+96:wellington boots:gumicsizma
+97:to walk on foot:gyalogol
+98:pedestrian:gyalogos
+99:pedestrian crossing:gyalogátkelőhely
+100:wool:gyapjú
+101:gyár:factory
+102:weak:gyenge
+103:candle:gyertya
+104:chemist:gyógyszertár
+105:weed:gyom
+106:to weed:gyomlál
+107:to accelerate:gyorsít
+108:to crawl:gyorsúszik
+109:inter-city train:gyorsvonat
+110:collection:gyűjtemény
+111:orchard:gyümölcskert
+112:fruit juice:gyümölcslé
+113:fruit:gyümölcs
+114:onion:hagyma
+115:to wash your hair:hajadat mos
+116:to dry your hair:hajadat szárít
+117:brush:hajkefe
+118:dawn:hajnal
+119:porthole:hajóablak
+120:to travel by boat:hajóval utazik
+121:to sail:hajózik, vitorlázik
+122:gangway:hajópalló
+123:hairband:hajpánt
+124:hairdrier:hajszárító
+125:fishmonger:halbolt
+126:fishing boat:halászcsónak
+127:net:háló
+128:nightdress:hálóing
+129:sleeping-car:hálókocsi
+130:bedroom:hálószoba
+131:sleeping bag:hálózsák
+132:to sing out of tune:hamisan énekel
+133:record shop:hanglemezbolt
+134:noisy:hangos
+135:loudspeaker:hangosbeszélő
+136:instrument:hangszer
+137:vomit:hány
+138:How old are you?:Hány éves vagy?
+139:What time is it ?:Hány óra van?
+140:tights:harisnyanadrág
+141:quarter to ten:háromnegyed 10
+142:three o'clock:3 óra
+143:triangle:háromszög
+144:back:hát
+145:stomach:has
+146:useful:hasznos
+147:back:hát
+148:enormous:hatalmas
+149:backpack:hátizsák
+150:to do backstroke:háton úszik
+151:backwards:hátra
+152:to get married:házasodik
+153:wedding:eskövő
+154:caretaker:gondnok,házfelügyelő
+155:to play the violin:hegedül
+156:climber:hegymászó
+157:butcher:hentes
+158:week-end:hétvége
+159:bridge:híd
+160:It's cold:Hideg van
+161:seaweed:hínár
+162:swing:hinta
+163:advertisement:hirdetmény
+164:credit card:hitelkártya
+165:mountain:hegy
+166:to go mountaineering:hegyet mászik
+167:snowman:hóember
+168:How are you?:Hogy vagytok?
+169:tomorrow evening:holnap este
+170:the day after tomorrow:holnapután
+171:out of focus:homályos
+172:sandcastle:homokvár
+173:stretcher:hordágy
+174:fishing rod:horgászbot
+175:to go fishing:horgászni megy
+176:anchor:horgony
+177:hook:horog
+178:thermometer:hőmérő
+179:heroine:hősnő
+180:wave:hullám
+181:to snore:horkol
+182:meat:hús
+183:to pull:húz
+184:fridge:hűtőszekrény
+185:thumb:hüvelyujj
+186:on time:időben
+187:wheater forecast:időjárás előrejelzés
+188:frightened:ijedt
+189:older than:idősebb mint
+190:twins:ikrek
+191:sweet-smelling:illatos
+192:shirt:ing
+193:to interview:interjút készít
+194:postal code:irányítószám
+195:wallet:irattárca
+196:satchel:iskolatáska
+197:playground:játszótér
+198:to sweat:izzad
+199:Departures:Indulás
+200:pavement:járda
+201:icicle:jégcsap
+202:referee:játékvezető
+203:to mend:javít
+204:polar bear:jegesmedve
+205:ticket machine:jegyautomata
+206:ticket collector:jegyszedő
+207:ticket office:jegypénztár
+208:present:jelen (idő)
+209:costume:jelmez
+210:on the right:jobb oldalon
+211:to turn right:fordulni jobbra
+212:Enjoy your meal!:Jó étvágyat!
+213:to have eaten well:jóllakik
+214:to have fun: jól mulat
+215:next week:jövő héten
+216:sheep:juh

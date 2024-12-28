@@ -7,7 +7,7 @@ let testNr=0;
 let cycleCount=0;
 let result=[ [],[],[] ];
 let badAnswers=[];
-let fLists=[ "wordbookae.txt" ];
+let fLists=[ "wordbookae.txt", "wordbookfj.txt" ];
 let flistCounter=0;
 let maxPoint=0;
 
@@ -60,9 +60,30 @@ function checkInput(result, inputId ) {
 		document.getElementById('scoring').style.display = 'block';
 		document.getElementById('scoring').style.color = 'green';
 		cycleCount=0;
-		document.getElementById('repeatbutton').style.display = 'block';
-		document.getElementById('mainbutton').style.display = 'none';
-		document.getElementById('inputtest').innerHTML = badAnswers[0][0];
+
+		flistCounter++;
+		if ( flistCounter < fLists.length ) {
+		  loadCSV(fLists[flistCounter]).then(result => {
+	    	    resetgen();
+		        for (i=0;i<result.length;i++) {
+				listArray.push(i);
+		        }
+		        document.getElementById('mainbutton').style.display = 'none';
+		        document.getElementById('repeatbutton').style.display = 'none';
+		        document.getElementById('myInputTest').style.display = 'none';
+			start(result, 10);
+		        maxPoint=maxPoint+10;
+			document.getElementById('scoring').style.display = 'none';
+			document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest') };
+		  }).catch(error => {
+		        console.error('Error during loading of CSV!!', error);
+		  });
+		}
+		else {
+		    document.getElementById('mainbutton').style.display = 'none';
+		    document.getElementById('repeatbutton').style.display = 'block';
+		    document.getElementById('inputtest').innerHTML = badAnswers[0][0];
+		}
 	}
     }
 }
@@ -78,7 +99,7 @@ function repeater(badAnswers,inputId) {
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: '+testNr[1]+'- a  kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: ['+testNr[1]+'] a  kérdésre';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 	}
