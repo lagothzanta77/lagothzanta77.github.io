@@ -7,7 +7,13 @@ let testNr=0;
 let cycleCount=0;
 let result=[ [],[],[] ];
 let badAnswers=[];
-let fLists=[ "wordbookae.txt", "wordbookfj.txt" ];
+let fLists=[	"wordbookae.txt", 
+		"wordbookfj.txt", 
+		"wordbookkm.txt", 
+		"wordbooknr.txt", 
+		"workbooknew.txt" 
+];
+
 let flistCounter=0;
 let maxPoint=0;
 
@@ -39,11 +45,11 @@ function checkInput(result, inputId ) {
 	    const inputContent = document.getElementById(inputId).value;
 	    if (result[testNr][1] === inputContent) {
 		pointnr++;
-	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a(z) '+(cycleCount+1)+'. kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a(z) '+(cycleCount+1)+'. kérdésre ebben a 10-es kupacban';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'green';
         } else {
-	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: ['+result[testNr][1]+'] a(z) '+(cycleCount+1)+'. kérdésre';
+	        document.getElementById('outputcheck').innerHTML = 'Rossz válasz: ['+result[testNr][1]+'] a(z) '+(cycleCount+1)+'. kérdésre ebben a 10-es kupacban. A te válaszod: ['+inputContent+'] volt!';
 		document.getElementById('outputcheck').style.display = 'block';
 		document.getElementById('outputcheck').style.color = 'red';
 		badAnrNr=badAnswers.length+1;
@@ -64,8 +70,8 @@ function checkInput(result, inputId ) {
 		flistCounter++;
 		if ( flistCounter < fLists.length ) {
 		  loadCSV(fLists[flistCounter]).then(result => {
-	    	    resetgen();
-		        for (i=0;i<result.length;i++) {
+	    		resetgen();
+		        for (let i=0;i<(result.length-1);i++) {
 				listArray.push(i);
 		        }
 		        document.getElementById('mainbutton').style.display = 'none';
@@ -131,7 +137,7 @@ function resetCode() {
 }
 
 function start(result, maxCount) {
-    for (i=1;i<=maxCount;i++) {
+    for (let i=1;i<=maxCount;i++) {
 	randNr=Math.floor(Math.random() * (listArray.length));
 	testArray.push(listArray[randNr]);
 	listArray.splice(randNr,1);
@@ -143,8 +149,7 @@ function start(result, maxCount) {
 }
 
 loadCSV(fLists[0]).then(result => {
-    resetgen();
-    for (i=0;i<result.length;i++) {
+    for (let i=0;i<(result.length-1);i++) {
 	listArray.push(i);
     }
     document.getElementById('mainbutton').style.display = 'none';

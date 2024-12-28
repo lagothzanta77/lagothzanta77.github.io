@@ -1,0 +1,15 @@
+1:idiom:jellemző szófordulat, kifejezés az adott nyelvben
+2:phrasal verbs:igekötő szerű cucc ami az ige után áll (up, down, out, stb.)
+3:aquaintance:ismerős
+4:keen:lelkes
+5:to consider:mérlegel valamit
+6:to earn:megkeresni
+7:competition:verseny
+8:even now: még most is
+9:spend on:sporolni vmiben
+10:good at:jó valamiben
+11:good for:jó valaki számára
+12:annoyed:bosszús
+13:to fallen out with:összeveszni vmin
+14:with spikes:tüskés pl. tüskés cipő
+15:to argue:vitatkozni

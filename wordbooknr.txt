@@ -1,0 +1,151 @@
+1:reed:nád
+2:trousers:nadrág
+3:capital letter:nagybetű
+4:aunt:nagynéni
+5:It was lovely to hear from you:Nagyon örültem, hogy hírt kaptam felőled.
+6:to be fond of:nagyon szeret
+7:Having a lovely time:Nagyszerűen érezni magukat
+8:tanned:napbarnított
+9:sunshade:napernyő
+10:suntan lotion:napozókrém
+11:to sunbathe:napozni
+12:daytime:nappal
+13:daffodil:nárcisz
+14:honeymoon:nászút
+15:forget-me-not:nefelejcs
+16:quarter past ten:negyed 11
+17:heavy:nehéz
+18:against:ellen, szemben vmivel
+19:without:nélkül
+20:No smoking:nemdohányzó
+21:popular:népszerű
+22:to bring up:nevel
+23:to laugh:nevet
+24:to burst out:nevetésre fakad
+25:Nothing to declare:Nincs vámolnivalóm
+26:flock:nyáj
+27:neck:nyak
+28:necklace:nyaklánc
+29:to go on holiday:nyaralni megy
+30:to mew:nyávog
+31:raw:nyers
+32:sole:nyelvhal
+33:grammar:nyelvtan
+34:to open:nyit
+35:open:nyitva
+36:calm:nyugodt
+37:quiet:csendes
+38:to stretch:nyújtozkodik
+39:rabbit:nyúl
+40:liner:óceánjáró hajó
+41:oil:olaj
+42:scissors:olló
+43:to thaw:olvad
+44:cheek:orca
+45:trunk:ormány
+46:lion:oroszlán
+47:nose:orr
+48:parliament:országház
+49:divided by:osztva valamivel
+50:classroom:osztályterem
+51:careful:óvatos
+52:at nursery school:óvodában
+53:cloakroom:öltöző
+54:to pour:öntöz
+55:old age:öregkor
+56:jungle:dzsungel
+57:autumn:ősz
+58:peach:őszibarack
+59:to add:összead
+60:to frown:összehúzza a szemöldökét
+61:five past ten:5 perccel múlt 10
+62:belt:öv
+63:bench:pad
+64:attic:padlás
+65:floor:padló
+66:fitted carpet:padlószőnyeg
+67:railway station:pályaudvar
+68:cotton:pamut
+69:parrot:papagáj
+70:duvet:paplan
+71:to splash:pancsol
+72:guest house:panzió
+73:slippers:papucs
+74:no parking:parkolni tilos
+75:park keeper:parkolóőr
+76:pillow:párna
+77:pate:pástétom
+78:sheepdog:pásztorkutya
+79:stream:patak
+80:lawn:pázsit
+81:bakery:pékség
+82:coin:pénzérme
+83:to spend money:pénzt költ
+84:to put money in the bank:pénzt tesz a bankba
+85:to change money:pénzt vált
+86:to take money out:pénzt vesz fel
+87:checkout:pénztár(fizetni)
+88:ticket office:pénztár(jegy)
+89:purse:pénztárca
+90:cashier:kasszás
+91:platform:peron
+92:platform ticket:peronjegy
+93:market place:piac
+94:to shop at the market:piacon vásárol
+95:to rest:pihen
+96:pilot:pilóta
+97:butterfly:pillangó
+98:cellar:pince
+99:waiter:pincér
+100:waitress:pincérnő
+101:penguin:pingvin
+102:pyjamas:pizsama
+103:trout:pisztráng
+104:puddle:pocsolya
+105:luggage:poggyász
+106:luggage-rack:poggyásztartó
+107:glass:pohár
+108:politics:politika
+109:T-shirt:pólóing
+110:dressing grown:pongyola
+111:to be on time:pontosan érkezni
+112:to vacuum:porszívózni
+113:by return of post:postafordultával
+114:to post:postára ad
+115:postman:postás
+116:spotted:pöttyös
+117:pullover:pulcsi
+118:counter:pult
+119:trump:púp
+120:to kiss: puszit ad vkinetk, csőkol vkit
+121:to listen to the radio:a rádiót hallgatni
+122:rubber:radír
+123:cargo:rakomány
+124:hold:rakodótér
+125:crab:rák
+126:to stick:ragaszt
+127:prescription:előírás
+128:spotlight:reflektor
+129:breakfast:reggeli
+130:to order:rendelni vmit
+131:to tidy up:rendet rakni
+132:police woman:rendőrnő
+133:police car:rendőrautó
+134:police station:rendőrőrs
+135:number plate:rendszámtábla
+136:to fly:repül
+137:areoplane:repülőgép
+138:airport:reptér
+139:department:részleg, osztály (cégnél)
+140:fox:róka
+141:meadow:rét
+142:thrush:rigó
+143:pink:rózsaszín
+144:to be related to:rokona valakinek
+145:to feel ill:rosszul van
+146:needlecraft shop:rövidárú üzlet
+147:dress:ruha
+148:fabric:ruhaanyag
+149:clothes:ruházat
+150:friendly:barátságos
+151:rice:rizs
