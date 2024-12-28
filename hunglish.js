@@ -1,10 +1,11 @@
-    let pointnr=0;
-    let testArray=[];
-    let listArray=[];
-    let badList=[];
-    let randNR=0;
-    let testNr=0;
-    let cycleCount=0;
+let pointnr=0;
+let testArray=[];
+let listArray=[];
+let badList=[];
+let randNR=0;
+let testNr=0;
+let cycleCount=0;
+let result=[ [],[],[] ]
 
 function resetgen() {
 
@@ -23,7 +24,7 @@ async function loadCSV(fName) {
     const data = await response.text();
 
     const rows = data.split('\n');
-    const result = rows.map(row => row.split(':'));
+    result = rows.map(row => row.split(':'));
 
     return result;
 }
