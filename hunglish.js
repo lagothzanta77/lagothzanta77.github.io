@@ -43,6 +43,7 @@ function checkInput(result, inputId ) {
 	    document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
 	    testNr=testArray[cycleCount];
 	    const inputContent = document.getElementById(inputId).value;
+	    document.getElementById(inputId).disabled=true;
 	    if (result[testNr][1] === inputContent) {
 		pointnr++;
 	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a(z) '+(cycleCount+1)+'. kérdésre ebben a 10-es kupacban';
@@ -58,6 +59,7 @@ function checkInput(result, inputId ) {
 	}
 	resetCode();
 	cycleCount++;
+	document.getElementById('mainbutton').disabled=true;
 	if ( cycleCount < testArray.length) {
             document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
 	}
@@ -99,6 +101,7 @@ function repeater(badAnswers,inputId) {
 	    document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
 	    testNr=badAnswers[cycleCount];
 	    const inputContent = document.getElementById(inputId).value;
+	    document.getElementById(inputId).disabled=true;
 	    if (testNr[1] === inputContent) {
 		badAnswers.splice(cycleCount,1);
 	        document.getElementById('outputcheck').innerHTML = 'Jó  válasz a kérdésre';
@@ -111,6 +114,7 @@ function repeater(badAnswers,inputId) {
 	}
 	resetCode();
 	cycleCount++;
+	document.getElementById('repeatbutton').disabled=true;
 	if ( cycleCount < badAnswers.length) {
 	    document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
 	}
@@ -133,7 +137,11 @@ function resetCode() {
 	document.getElementById('outputcheck').style.display = 'none'; 
 	document.getElementById('outputcheck').innerHTML = '';
 	document.getElementById('myInputTest').value = '';
-    }, 7000); 
+	document.getElementById('mainbutton').disabled=false;
+	document.getElementById('repeatbutton').disabled=false;
+        document.getElementById('myInputTest').disabled=false;
+        document.getElementById('myInputTest').focus();
+    }, 3500); 
 }
 
 function start(result, maxCount) {
