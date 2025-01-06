@@ -12,8 +12,4 @@ jobs:
     - name: Html check
       run: bash ./.test/test.sh
     - name: Generate changelog
-    - run: git status
-    - run: git log -n 5 --pretty=format:"%h - %s - %ad" --date=short > changelog-hunglish.txt 
-    - run: git add changelog-hunglish.txt 
-    - run: git commit --amend --no-edit 
-    - run: git push --force
+      run: bash ./.test/changelog.sh
