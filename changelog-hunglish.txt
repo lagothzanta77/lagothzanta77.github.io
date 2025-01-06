@@ -1,5 +1,1 @@
-dd83a79 - hunglish(fix): timer between the answers - 2024-12-28
-550523f - hunglish(fix): csv fix - 2024-12-28
-05f3090 - hunglish(new): add more csv files - 2024-12-28
-a113bd6 - hunglish(new): gany ico :-) - 2024-12-28
-dab02a8 - hunglish(new): function for more csv files - 2024-12-28
+87e6fe2 - hunglish(fix): workflow file 14 - 2025-01-06
