@@ -1,5 +1,5 @@
-9d73dd7 - hunglish(new): gitignore to avoid merge conflicts after workflow - 2025-01-06
+4171e4b - hunglish(fix): proofreading correction in wordbookfj by Adri - 2025-01-06
+bdd009d - hunglish(new): gitignore to avoid merge conflicts after workflow - 2025-01-06
 6df2923 - Merge branch 'development' of https://github.com/lagothzanta77/lagothzanta77.github.io into development - 2025-01-06
 d049468 - Merge branch 'development' of https://github.com/lagothzanta77/lagothzanta77.github.io into development - 2025-01-06
 4835137 - Merge branch 'development' of https://github.com/lagothzanta77/lagothzanta77.github.io into development - 2025-01-06
-75f8b44 - hunglish(fix): workflow file - 2025-01-06

@@ -24,7 +24,7 @@
 24:beginning of term:félév kezdete
 25:skyscraper:felhőkarcoló
 26:half a litre:fél liter
-27:to go upstairs: felmegy a lépcsőn
+27:to go upstairs:felmegy a lépcsőn
 28:to get dressed:felöltözik
 29:to take off:felszáll (repülőgép)
 30:to get on:felszáll(nem repülőre)
