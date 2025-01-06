@@ -1,0 +1,217 @@
+1:to serve:adogat
+2:tusk:agyar
+3:to go to bed:ágyba bújik
+4:bedspread:ágytakaró
+5:lip:ajak
+6:lipstick:ajakrúzs
+7:present:ajándékoz
+8:foundation cream:alapozó krém
+9:bargain:alkalmi vétel
+10:zoo keeper:állatkerti őr
+11:apple tree:almafa
+12:sleepy:álmos
+13:underpants:alsónadrág
+14:primary school:általános iskola
+15:lullaby:altatódal
+16:subway:aluljáró
+17:gold fish:aranyhal
+18:sweet:aranyos,édes
+19:to harvest:aratni valamit
+20:complexion:arcszín
+21:exchange rate:árfolyam
+22:department store:áruház
+23:to yawn: ásít
+24:spade:ásó
+25:to cross the street:átkel az úttesten
+26:crossing:átkelés
+27:to pass the exam:átmegy a vizsgán
+28:to be frozen:átfagyott
+29:coach:távolsági busz
+30:bus stop:buszmegálló
+31:to take a bus: autóbuszra száll
+32:tyre:autógumi
+33:motorway:autóverseny-pálya
+34:motor racing:autóverseny
+35:That will cost:Az annyi mint...
+36:beans:bab
+37:owl:bagoly
+38:the train to:vonat indul -ba...
+39:to have a moustache:bajszos
+40:casualty department:baleseti osztály
+41:to turn left:balra fordul
+42:bank manager:bankigazgató
+43:note:bankjegy
+44:lamb:bárány
+45:leg of lamb:báránycomb
+46:to do odd jobs:barkácsol
+47:brown hair:barna hajú
+48:brave:bátor
+49:to pack:becsomagol
+50:to ring the bell:becsenget
+51:bell is rung:csengettek
+52:I rang the bell:csengettem
+53:no entry:behajtani tilos
+54:entrance:bejárat
+55:peaceful:békés
+56:to move in:beköltözik
+57:to join in:belép valahova
+58:to answer to telephone:beleszól a telefonba
+59:stamp:bélyeg
+60:to collect stamps:bélyeget gyűjt
+61:to introduce:bemutat valakit
+62:petrol:benzin
+63:petrol station:benzinkút
+64:salary:munkabér
+65:to load:berakodik
+66:season ticket:bérlet
+67:tenant:bérlő
+68:to board:beszáll
+69:to chat:beszélget
+70:to have a filling:betömeti a fogát
+71:trolley:bevásárlókocsi
+72:shopping bag:bevásárlótáska
+73:to go shopping:bevásárol
+74:stake:bifsztek
+75:safety belt:biztonsági öv
+76:bottercup:boglárka(virág)
+77:ankle:boka
+78:bush:bokor
+79:envelope:boríték
+80:calf:borjú
+81:razor:borotva
+82:shaving foam:borotvahab
+83:to shave:borotválkozik
+84:tip:borravaló
+85:pepper:bors
+86:loose:bő
+87:leather:bőr
+88:soaked to the skin:bőrig ázva
+89:suitcase:bőrönd
+90:knickers:bugyi
+91:fur:bunda
+92:boutique:butik
+93:furniture:bútor
+94:centimetre:centiméter
+95:centre:centrum
+96:pencil:ceruza
+97:shoes:cipő
+98:lemon:citrom
+99:plaits:copf
+100:bait:csali
+101:plug:csatlakozó
+102:screwdriver:csavarhúzó
+103:delicatessen:csemegeüzlet
+104:Pacific Ocean:csendes óceán
+105:doorbell:ajtócsengő
+106:cherry:cseresznye
+107:saucer:csészealj
+108:cheque-book:csekkfüzet
+109:striped:csíkos
+110:to hang on to: csimpaszkodik valamin
+111:it hung on the lamp: lámpára akasztotta
+112:parcel:postai csomag
+113:packet:csomag(sima)
+114:pretty:csinos
+115:left luggage office:csomagmegőzrőben hagyta
+116:wrapping:csomagolás
+117:boot:csomagtartó
+118:boot:csizma
+119:to wag ist tail:csóválja a farkát
+120:beak:csőr
+121:summit:csúcs
+122:wrist:csukló
+123:csúszda:slide
+124:barn:csúr
+125:to play draugths:dámázik
+126:to have a flat tyre:defektes a kereke
+127:midday:napközben
+128:melon:dinnye
+129:to go to discotheque: diszkóba megy
+130:scenery:díszlet
+131:pig:disznó
+132:to play drums:dobol
+133:fashionable:divatos
+134:to purr:dorombol
+135:to rub eyes:dörzsöli a szemét
+136:jacket:dzseki
+137:lunch hour:ebédidő
+138:dining room:ebédlő
+139:vinegar:ecet
+140:brush:ecset
+141:dessert:édesség
+142:to excercise:edz,gyakorol
+143:to burn:ég valami
+144:burn:égési seb
+145:climate:éghajlat
+146:single room:egyágyas szoba
+147:to go stright:egyenesen menni
+148:Equator:Egyenlítő(földrajzi)
+149:I agree: egyetértek
+150:I agreed: egyetértettem,elfogadtam
+151:the same age as: egyidős valakivel
+152:together:együtt
+153:one way street:egyirányú utca
+154:a kilo of: egy kiló valamiből
+155:only son:egyke
+156:hungry:éhes
+157:bedside lamp:éjjelilámpa
+158:bedside table:éjjeliszekrény
+159:jewellry:ékszer
+160:shop assistant:eladó
+161:to faint:elájul
+162:to fall asleep:elaludt
+163:I fell asleep: elaludtam
+164:market stall:elárusító pult
+165:to drop:elejteni
+166:to throw:eldobni, elszórni
+167:to fire somone:elküldeni, elbocsátani valakit
+168:to hide:elbújni
+169:to slip:elcsúszni
+170:in front of: valmi elé, előtt
+171:sharp:éles
+172:in focus:középpontban
+173:bright:élénk, okos
+174:lively:élénk,eleven
+175:pleased with:elégedett valamivel
+176:to open curtain:elhúzza a függönyt
+177:to run away: elfut
+178:to catch the train:eléri a vonatot
+179:to start off:elindul
+180:to get engaged:eljegyezte magát
+181:to be late: elkésik
+182:to move: elköltözik
+183:to send:elküld
+184:to go to supermarkt:elmegy a élelmiszeráruházba
+185:starter:előétel
+186:away from:valami elől
+187:forwards:előre
+188:to overtake:előz
+189:first floor:első emelet
+190:to tear:elszakít
+191:I tore the notebook: elszakítottam a füzetet
+192:The notebook has been torn: a füzetet elszakították.
+193:to break the leg:eltörte a lábát
+194:singer:énekes
+195:architect:építész
+196:building:épület
+197:interesting:érdekes
+198:wood:erdő
+199:ripe:érett
+200:balcony:erkély
+201:It's raining:esik az eső
+202:umbrella:esernyő
+203:raindrop:esőcsepp
+204:It is getting dark:esteledik
+205:8 in the evening:este 8 óra
+206:North Pole:Északi-Sark
+207:recipe:ételrecept
+208:to feed:etet
+209:buffet car:étkezőkocsi
+210:restaurant:étterem
+211:to row:evez
+212:It is expensive:ez drága!
+213:What size is it ?: Ez Mekkora méret?
+214:It tastes good:Ez ízletes
+215:It's good value:ez olcsó (megfelelő).
+216:oar:evezős
+217:rowing boat:evezős csónak

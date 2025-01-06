@@ -1,0 +1,22 @@
+name: HTML check
+on:
+  pull_request:
+     branches: main
+jobs:
+  htmltest:
+    runs-on: ubuntu-latest
+    steps:
+# set github directory
+    - name: change working directory
+      uses: actions/checkout@v3
+    - name: Html check
+      run: bash ./.test/test.sh
+    - name: Generate changelog
+      run: |
+          git config --global user.name 'Lagothzanta77'
+          git config --global user.email 'lagothzanta77@users.noreply.github.com'
+          git log -n 5 --pretty=format:"%h - %s - %ad" --date=short > changelog-hunglish.txt
+          git add changelog-hunglish.txt
+          git commit --amend --no-edit
+          git push --force origin HEAD:development
+
