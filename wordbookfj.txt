@@ -97,7 +97,7 @@
 97:to walk on foot:gyalogol
 98:pedestrian:gyalogos
 99:pedestrian crossing:gyalogátkelőhely
-100:wool:gyapjú
+100:yarn:fonal
 101:gyár:factory
 102:weak:gyenge
 103:candle:gyertya
