@@ -171,3 +171,13 @@ loadCSV(fLists[0]).then(result => {
     console.error('Error during loading of CSV!!', error);
 });
 
+loadCSV("changelog-hunglish.txt").then(result => {
+    chlogHtml = '<br><br><b>Auto-generated Changelog (last 5 changes): </b><br>';
+    for (let i=0;i<result.length;i++) {
+	chlogHtml=chlogHtml+result[i]+'<br>';
+    }
+    console.log(chlogHtml);
+    document.getElementById('devops').innerHTML = chlogHtml;
+}).catch(error => {
+    console.error('Error during loading of devops changelog!!', error);
+});
