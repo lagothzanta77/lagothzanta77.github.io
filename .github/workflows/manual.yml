@@ -13,7 +13,7 @@ jobs:
       run: bash ./.test/test.sh
     - name: Generate changelog
       run: |
-          git config --global user.name 'Lagothzanta777 Github Action bot'
-          git config --global user.email 'lagothzanta777@users.noreply.github.com'
+          git config --global user.name 'Lagothzanta77'
+          git config --global user.email 'lagothzanta77@users.noreply.github.com'
           git commit -am "Automated report"
           git push
