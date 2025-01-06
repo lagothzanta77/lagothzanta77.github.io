@@ -8,7 +8,7 @@ jobs:
     steps:
 # set github directory
     - name: change working directory
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Html check
       run: bash ./.test/test.sh
     - name: Generate changelog
