@@ -8,8 +8,12 @@ jobs:
     steps:
 # set github directory
     - name: change working directory
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
     - name: Html check
       run: bash ./.test/test.sh
     - name: Generate changelog
-      run: bash ./.test/changelog.sh
+      run: |
+          git config --global user.name 'Lagothzanta777 Github Action bot'
+          git config --global user.email 'lagothzanta777@users.noreply.github.com'
+          git commit -am "Automated report"
+          git push
