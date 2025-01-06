@@ -172,7 +172,7 @@ loadCSV(fLists[0]).then(result => {
 });
 
 loadCSV("changelog-hunglish.txt").then(result => {
-    chlogHtml = '<br><br><b>Auto-generated Changelog (last 5 changes): </b><br>';
+    chlogHtml = '<br><br><b>Auto-generated Changelog (last changes): </b><br>';
     for (let i=0;i<result.length;i++) {
 	chlogHtml=chlogHtml+result[i]+'<br>';
     }
