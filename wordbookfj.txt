@@ -26,7 +26,7 @@
 26:half a litre:fél liter
 27:to go upstairs: felmegy a lépcsőn
 28:to get dressed:felöltözik
-29:to take off:felszáll(repülőre)
+29:to take off:felszáll (repülőgép)
 30:to get on:felszáll(nem repülőre)
 31:to serve:felszolgál
 32:Is service included?:felszolgálási díjjal együtt?
@@ -55,7 +55,7 @@
 55:job:foglalkozás
 56:garlic:fokhagyma
 57:river:folyó
-58:wool:fonal
+58:wool:gyapjú
 59:bustling:forgalmas
 60:traffic jam:forgalmi dugó
 61:to be fit:formában van
@@ -65,7 +65,7 @@
 65:soil:föld
 66:to land:földet ér
 67:ground floor:földszint
-68:fringe:frufru
+68:bangs:frufru
 69:It's windy:Fúj a szél
 70:to play football:focizik
 71:grass:fű
@@ -105,7 +105,7 @@
 105:weed:gyom
 106:to weed:gyomlál
 107:to accelerate:gyorsít
-108:to crawl:gyorsúszik
+108:to crawl:kúszik
 109:inter-city train:gyorsvonat
 110:collection:gyűjtemény
 111:orchard:gyümölcskert
@@ -184,11 +184,11 @@
 184:fridge:hűtőszekrény
 185:thumb:hüvelyujj
 186:on time:időben
-187:wheater forecast:időjárás előrejelzés
+187:weather forecast:időjárás előrejelzés
 188:frightened:ijedt
 189:older than:idősebb mint
 190:twins:ikrek
-191:sweet-smelling:illatos
+191:sweet-smelling:édes illatú
 192:shirt:ing
 193:to interview:interjút készít
 194:postal code:irányítószám
