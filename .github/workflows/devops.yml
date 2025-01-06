@@ -8,6 +8,9 @@ jobs:
     steps:
     - name: change working directory
       uses: actions/checkout@v3
+      with:
+       ref: ${{ github.event.pull_request.head.sha }}
+       fetch-depth: 0
     - name: Generate changelog
       run: |
           git config --global user.name 'Lagothzanta77'
