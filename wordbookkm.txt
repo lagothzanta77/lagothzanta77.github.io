@@ -169,7 +169,7 @@
 171:to invite:meghív
 172:to weigh yourself:megmérnii magadat
 173:to thank:megköszön
-174:fully booked:megtelet
+174:fully booked:megtelt (foglalás nincs szabad hely, szoba, stb)
 175:to take someone's pulse:megmérni valaki pulzusát
 176:to lay the table:megterít
 177:I am hot:melegem van
