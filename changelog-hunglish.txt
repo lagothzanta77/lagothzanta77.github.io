@@ -1,5 +1,5 @@
-4859b24 - hunglish(workflow): CI test for CSV format - 2025-01-08
+93538b1 - hunglish(fix): proofreading correction in wordbookkm.txt by Adri - 2025-01-08
+c110c42 - hunglish(workflow): CI test for CSV format - 2025-01-08
 cc6761a - hunglish(fix): proofreading correction in wordbookfj by Adri - 2025-01-06
 25783e3 - test commit - 2025-01-06
 2362a49 - test commit - 2025-01-06
-d008ec2 - Merge branch 'main' into development - 2025-01-06
