@@ -34,7 +34,7 @@
 34:chemistry:kémia
 35:campsite:kemping
 36:kangoroo:kengurú
-37:stove:kempingfőző, (sparhelt?)
+37:stove:sparhelt
 38:bread:kenyér
 39:post card:képeslap
 40:magazine:képes folyóirat
@@ -59,7 +59,7 @@
 59:to write a cheque:kiállít egy csekket
 60:exhibition:kiállítás
 61:to shout:kiált
-62:kiáltottál:you shut
+62:you shouted:kiáltottál
 63:Who is speaking?:Ki beszél?
 64:to sprain your wrist:kificamítani a csuklódat
 65:runway:kifutópálya
@@ -96,7 +96,7 @@
 96:near:közel
 97:secondary school:középiskola
 98:audince:közönség
-99:cone:kút
+99:cone:kúp
 100:kennel:kutyaól
 101:to walk the dog: a kutyát sétáltatja
 102:I am sending ... separately:külön elküldöm neked ...
@@ -171,7 +171,7 @@
 173:to thank:megköszön
 174:fully booked:megtelet
 175:to take someone's pulse:megmérni valaki pulzusát
-176:to lay to table:megterít
+176:to lay the table:megterít
 177:I am hot:melegem van
 178:bee:méh
 179:greenhouse:melegház
@@ -188,10 +188,10 @@
 190:to measure:mérni valamit
 191:How much do I owe you?:Mivel tartozom ?
 192:steep:meredek
-193:scales:mérleg
+193:scale:mérleg
 194:Which way is?:Merre van ?
 195:to read a story:mesét olvasni
-196:Is it far to ?:Messze van innen ?
+196:Is it far to ?:Messze van valamitől (pl. Budapesttől) ?
 197:noodles:metélt (tészta)
 198:underground:metro
 199:underground station:metróállomás
@@ -203,7 +203,7 @@
 205:sentence:mondat
 206:to stay:maradni
 207:to growl:morogni
-208:to do washing:mosni valamit
+208:to wash:mosni valamit (pl. ruhát)
 209:to wash up:mosogat
 210:have a wash:mosakszik
 211:flannel:mosdókesztyű
@@ -219,4 +219,4 @@
 221:geranium:muskátli
 222:mustard:mustár
 223:made of plastic:műanyagból készült
-224:operation theathre:műtőterem
+224:operation room:műtőterem
