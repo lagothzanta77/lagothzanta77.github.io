@@ -19,7 +19,7 @@
 19:without:nélkül
 20:No smoking:nemdohányzó
 21:popular:népszerű
-22:to bring up:nevel
+22:to raise:felnevel
 23:to laugh:nevet
 24:to burst out:nevetésre fakad
 25:Nothing to declare:Nincs vámolnivalóm
@@ -29,7 +29,7 @@
 29:to go on holiday:nyaralni megy
 30:to mew:nyávog
 31:raw:nyers
-32:sole:nyelvhal
+32:sole:egyetlen
 33:grammar:nyelvtan
 34:to open:nyit
 35:open:nyitva

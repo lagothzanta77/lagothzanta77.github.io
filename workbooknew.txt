@@ -3,7 +3,7 @@
 3:aquaintance:ismerős
 4:keen:lelkes
 5:to consider:mérlegel valamit
-6:to earn:megkeresni
+6:to earn:pénzt szerezni
 7:competition:verseny
 8:even now: még most is
 9:spend on:sporolni vmiben
