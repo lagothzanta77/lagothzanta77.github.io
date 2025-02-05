@@ -34,10 +34,10 @@ document.getElementById('myftid').addEventListener('input', function() {
     var sumValue = document.getElementById('myid').value;
     sumValue = sumValue.replace(/,/g, '.');
 
-    if ( !isNaN(sumValue) && sumValue !== '' && ( eurValue % 5 === 0 ) && !isNaN(ftValue) && ( ftValue >= 0 ) )  {
-        if ( (sumValue * convertValue) >= ( ( eurValue * convertValue ) + ftValue ) )   
-            document.getElementById('result2').innerText = 'Forintban fizetendő még: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
-        else {
+    if ( !isNaN(sumValue) && sumValue !== '' && ( eurValue % 5 === 0 ) && !isNaN(parseFloat(ftValue)) && ( ftValue >= 0 ) )  {
+        if ( (sumValue * convertValue) > ( ( eurValue * convertValue ) + ftValue ) ) {
+            document.getElementById('result2').innerText = 'Forintban fizetendő: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)) - Math.round(parseFloat(ftValue)) );
+        } else {
             var sumResult = sumValue * convertValue;
             var endResult = Math.round(parseFloat((eurValue * convertValue ) + parseFloat(ftValue) - sumResult));
 	    if ( isNaN(endResult) ) { 
