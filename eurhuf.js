@@ -39,7 +39,7 @@ document.getElementById('myftid').addEventListener('input', function() {
             document.getElementById('result2').innerText = 'Forintban fizetendő még: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
         else {
             var sumResult = sumValue * convertValue;
-            var endResult = (eurValue * convertValue ) + parseFloat(ftValue) - sumResult;
+            var endResult = Math.round(parseFloat((eurValue * convertValue ) + parseFloat(ftValue) - sumResult));
             document.getElementById('result2').innerText = 'Forint visszajáró: ' + endResult;
         }
     } else {
