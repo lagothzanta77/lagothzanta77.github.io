@@ -1,0 +1,21 @@
+CIT:Nemzetközi Vasúti Fuvarozási Bizottság
+Egymást követő szállítók:Szállító azon szállítók sorában, amelyek végrehajtják a személyszállítási szerződést, és amelyek felelősek e szerződés végrehajtásáért.
+GCC-CIV/PRR:Általános szállítási feltételek személyek vasúti szállítására. 
+Helyettesítő szállító:Szállító, amely nem kötött az utassal szállítási szerződést, de amelyre a szerződést kötő szállító a vasúton történő szállítás lebonyolítását egészben vagy részben átruházta. nem felelős a PRR-ügyekben  A helyettesítő szállító a menetjegyen nem kerül feltüntetésre.
+IRT:Helybiztosítást tartalmazó menetjegy
+Különleges nemzetközi szállítási feltételek (SCIC):Feltételek, melyeket a szállítók önmaguk  vagy más szállítókkal közösen határoznak meg egyes nemzetközi összeköttetésekhez,
+Menetjegyek összekapcsolása:Technológia, amely lehetővé teszi az utazási okmányoknak,folyamatos menetjegyként történő megjelölését elektronikus oldalszámozás (1/3, 2/3, 3/3) alkalmazásával.
+Folyamatos menetjegy: Egy szállítási szerződés az egy vagy több vasúttársaság által üzemeltetett egymást követő vasúti szolgáltatásokra.
+EWT:Kelet-Nyugat forgalomban kiadott menetjegy
+CIV:A Nemzetközi Vasúti  Személyszállítási Szerződésre vonatkozó Egységes Jogi Előírások
+Belföldi menetjegy:Menetjegy, amelyet a jegykiadó társaság egy másik ország belföldi vonalszakaszaira ad ki.
+MIRT:Nemzetközi vasúti menetjegyek kézikönyve
+NRT:Helybiztosítást nem tartalmazó menetjegy.A helybiztosítás a menetjeggyel együtt megvásárolható (bizonyos esetekben kötelező). Kiadható vonathoz kötött formában is.
+PNR:Adatbázis rekord, amely tartalmazza az utas vagy együtt utazó utasok adatait.
+PRM:A PRR alapján azokat a személyeket jelenti, akiknek a mozgása az utazás során valamilyen fizikai fogyatékosság (érzékszervi vagy mozgásszervi, állandó vagy ideiglenes), szellemi fogyatékosság, vagy bármely más egyéb fogyatékosság, illetve az életkor miatt korlátozott és akiknek a helyzete megfelelő figyelmet valamint a sajátos igényeikhez igazodó segítséget igényel a bárki által igénybe vehető szolgáltatások használatakor
+PRR:Az Európai Parlament és a Tanács EU 2021/782 (2021. április 29) rendelete a vasúti személyszállítást igénybe vevő utasok jogairól és kötelezettségeirő
+RICS (fuvarozó)kód:A vasúti társaságok 4 számjegyű azonosító (fuvarozó)kódj
+RPT:Bérlet jellegű ajánlatok
+SCIC:Különleges nemzetközi szállítási feltételek
+Szerződéses szállító:Szervezet, amely által, vagy amely nevében a szállítási szerződés megkötésre kerül, függetlenül attól, hogy a fuvarozást ténylegesen ez a szervezet vagy egy helyettesítő szállító végzik-e.Folyamatos menetjegy (through ticket) esetén több szállító működik közre, mint egymást követő szállítók. Ilyenkor minden szállító csak a  saját szakaszáért felelős.
+UIC:Nemzetközi Vasútegylet

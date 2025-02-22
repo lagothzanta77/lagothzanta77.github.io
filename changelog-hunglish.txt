@@ -1,5 +1,5 @@
-28ed978 - hunglish(fix): more proofreading correction by Adri - 2025-01-13
-3a57d68 - hunglish(patch): remove unnecessary code and fix typo - 2025-01-08
-7fc23b2 - hunglish(fix): proofreading correction in wordbookkm.txt by Adri - 2025-01-08
-c110c42 - hunglish(workflow): CI test for CSV format - 2025-01-08
-cc6761a - hunglish(fix): proofreading correction in wordbookfj by Adri - 2025-01-06
+80ac5c0 - new: je definitions - 2025-02-22
+8f9677f - fix: ftValue NaN - 2025-02-05
+b30849f - fix: negative Ft value - 2025-02-05
+de07a77 - fix: converter round fn - 2025-02-05
+9e265fe - new: converter - 2025-02-05
