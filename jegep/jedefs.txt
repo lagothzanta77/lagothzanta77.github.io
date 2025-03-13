@@ -19,3 +19,8 @@ RPT:Bérlet jellegű ajánlatok
 SCIC:Különleges nemzetközi szállítási feltételek
 Szerződéses szállító:Szervezet, amely által, vagy amely nevében a szállítási szerződés megkötésre kerül, függetlenül attól, hogy a fuvarozást ténylegesen ez a szervezet vagy egy helyettesítő szállító végzik-e.Folyamatos menetjegy (through ticket) esetén több szállító működik közre, mint egymást követő szállítók. Ilyenkor minden szállító csak a  saját szakaszáért felelős.
 UIC:Nemzetközi Vasútegylet
+lemondási költség:Szállító által, helybiztosítási rendszerben rögzített fix vagy százalékos összeg, amely nem visszatéríthető
+Részvételi jegy: Az együtt utazó csoport tagjainak kiadott papír vagy kártya alakú menetjegy
+Tarifakód:Egy adott ajánlat foglalásához a helyfoglalási rendszerben megadott számkód
+Kezelési költség:Fix vagy változó összeg, amit a jegykiadó megtart értékesítés, visszatérítés vagy csere esetén
+Visszatérítési költség:Az összes olyan költség, amelyet visszatérítésnél a jegy árából levonnak (kezelési és lemondási költség együtt)

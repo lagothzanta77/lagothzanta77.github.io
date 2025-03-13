@@ -1,5 +1,5 @@
-80ac5c0 - new: je definitions - 2025-02-22
+7e77da7 - jegep: add new defs - 2025-03-13
+e9a0566 - new: je definitions - 2025-02-22
 8f9677f - fix: ftValue NaN - 2025-02-05
 b30849f - fix: negative Ft value - 2025-02-05
 de07a77 - fix: converter round fn - 2025-02-05
-9e265fe - new: converter - 2025-02-05
