@@ -24,3 +24,5 @@ Részvételi jegy: Az együtt utazó csoport tagjainak kiadott papír vagy kárt
 Tarifakód:Egy adott ajánlat foglalásához a helyfoglalási rendszerben megadott számkód
 Kezelési költség:Fix vagy változó összeg, amit a jegykiadó megtart értékesítés, visszatérítés vagy csere esetén
 Visszatérítési költség:Az összes olyan költség, amelyet visszatérítésnél a jegy árából levonnak (kezelési és lemondási költség együtt)
+Szervízdíj:A jegykiadó társaság (vagy annak partnerei) által a jegykiállításáért felszámított díj. Ez a díj feltüntethető magán a jegyen (az összesített összegben vagy a menetdíjon felül), vagy külön nyugtán.
+SZMPSZ:Nemzetközi Személyszállításról szóló Egyezmény (Keleti országokra vonatkozó vasúti nemzetközi egyezmény)

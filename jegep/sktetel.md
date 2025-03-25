@@ -11,7 +11,7 @@
   * Útmegszakítás határátlépő vonattal nem megengedett
   * Elővételi korlátozások díjszintenként eltérőek
   * helybiztosítás váltható, Mo-n belföldi vonaton ajánlattal együtt díjmentes helyjeggyel
-  * Egy felnőtt START Europa jeggyel utazó legfeljebb három, 6 és 15 év közötti gyermek számára 5 eurós kedvezményes jegy váltható 2. osztályon 5 €, 1. osztályon 10 €-ért.
+  * Egy felnőtt START Europa jeggyel utazó legfeljebb 3, 6 és 15 év közötti gyermek számára kedvezményes jegy váltható 2. osztályon 5 €, 1. osztályon 10 €-ért.
   * Kutya utazásához kedvezményes Europa Flex SK jegy szükséges
 
 ## START Europa SK+
