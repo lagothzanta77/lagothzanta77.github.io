@@ -1,5 +1,5 @@
-b9613bb - fix: jegep infos - 2025-03-25
+624d503 - fix: sktetel - 2025-03-26
+cf3d426 - fix: jegep infos - 2025-03-25
 ac02309 - new: jegep sk infos - 2025-03-25
 eca611c - jegep: add new defs - 2025-03-13
 e9a0566 - new: je definitions - 2025-02-22
-8f9677f - fix: ftValue NaN - 2025-02-05

@@ -6,13 +6,13 @@
   * Több díjszinten, korlátozott számban értékesített menetjegy
   * pénztári kiadás esetén 2 napos érvényességű, az utazást 1. nap meg kell kezdeni
   * Határátlépő vonatok esetén vonathoz kötött, más határátlépő vonaton nem érvényes. Szlovák,magyar belföldi forgalomban érvénytartamon belül tetszőleges vonaton igénybe vehető.
-  * Osztrák átmenetben csak a jegyen feltüntetett osztrák vonaton érvényes
+  * osztrák átmenetben nem adható ki
   * Visszatérítés és csere nincs, útirány nem módosítható, kocsiosztály különbözet nem váltható
   * Útmegszakítás határátlépő vonattal nem megengedett
   * Elővételi korlátozások díjszintenként eltérőek
   * helybiztosítás váltható, Mo-n belföldi vonaton ajánlattal együtt díjmentes helyjeggyel
-  * Egy felnőtt START Europa jeggyel utazó legfeljebb 3, 6 és 15 év közötti gyermek számára kedvezményes jegy váltható 2. osztályon 5 €, 1. osztályon 10 €-ért.
-  * Kutya utazásához kedvezményes Europa Flex SK jegy szükséges
+  * Egy felnőtt START Europa jeggyel utazó legfeljebb 3, 6 és 15 év közötti gyermek számára kedvezményes jegy válthat 2. osztályon 5 €, 1. osztályon 10 €-ért.
+  * Pórázon saját lábán járó nem segítő Kutya utazásához kedvezményes Europa Flex SK jegy szükséges
 
 ## START Europa SK+
 
@@ -21,11 +21,30 @@
 ## Europa Flex SK
 
   * Rugalmas, vonatfüggetlen kedvezményes nemzetközi egyúti menetjegy, egyéni és csoportos utasok számára Magyarország és Szlovákia között 1. illetve 2. kocsiosztályon
-  * Külön %-os kedvezmény az NRT jegyek árából felnőtt, 26 év alatti utasok, valamint az NRT szerinti korhatárok alapján gyermekek illetve csoportok, kutya részére
+  * Külön %-os kedvezmény az NRT jegyek árából felnőtt, 26 év alatti utasok, valamint országonként eltérő korhatárok alapján gyermekek illetve csoportok, és pórázon saját lábán járó nem segítő kutya részére
   * 4 napos érvénytartammal rendelkezik
   * Helybiztosítás váltható
   * kocsiosztály különbözet, útmegszakítás, útirány módosítás megengedett.
-  * visszatérítés kezelési költséggel, csere nincs
+  * visszatérítés utazás napja előtt kezelési költséggel, csere nincs
+
+## START Regio SK
+
+  * Rugalmas, vonatfüggetlen kedvezményes nemzetközi egyúti menetjegy, egyéni és utasok számára Magyarország és Szlovákia kizárólag regionális forgalomban győr- pozsony miskolc kassa ill vác érsekújvár felé 2. kocsiosztályon
+  * Külön %-os kedvezmény az NRT jegyek árából felnőtt, 26 utasok, valamint országonként eltérő korhatárok alapján gyermekek illetve csoportok, és pórázon saját lábán járó nem segítő kutya részére
+  * 1 napos érvénytartammal rendelkezik
+  * Helybiztosítás váltható
+  * kocsiosztály különbözet, útmegszakítás, útirány módosítás nem megengedett.
+  * visszatérítés utazás napja előtt kezelési költséggel, csere nincs
+  * kerékpárjegy 2eur-ert valthato
+  * TODO
+
+## Bratislava Regio Special 
+
+  * TODO
+
+## Tátrai kirándulójegy
+
+  * TODO
 
 ## Forrás
 
