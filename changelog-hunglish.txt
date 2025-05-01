@@ -1,5 +1,5 @@
-624d503 - fix: sktetel - 2025-03-26
+ff0dacc - fix(eurhuf): conversion - 2025-05-01
+7316935 - new(eurhuf): add popup version - 2025-05-01
+ab58e2b - new(eurhuf): backup the actual version - 2025-05-01
+242fa5b - fix: sktetel - 2025-03-26
 cf3d426 - fix: jegep infos - 2025-03-25
-ac02309 - new: jegep sk infos - 2025-03-25
-eca611c - jegep: add new defs - 2025-03-13
-e9a0566 - new: je definitions - 2025-02-22
