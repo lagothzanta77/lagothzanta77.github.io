@@ -25,7 +25,7 @@ document.getElementById('myeurid').addEventListener('input', function() {
             document.getElementById('result2').innerText = 'Ft még: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
     }
         else {
-            document.getElementById('result2').innerText = 'Ft vissza: ' + Math.floor((  Math.round(parseFloat(eurValue * convertValue )) - Math.ceil(parseFloat(sumValue * convertValue)) )/5)*5;
+            document.getElementById('result2').innerText = 'Ft vissza: ' + Math.floor((  Math.round(parseFloat(eurValue * convertValue )) - Math.round(parseFloat(sumValue * convertValue)) )/5)*5;
         }
     } else {
         document.getElementById('result2').innerText = 'Helytelen eur!';
@@ -42,7 +42,7 @@ document.getElementById('myftid').addEventListener('input', function() {
         if ( (sumValue * convertValue) > ( ( eurValue * convertValue ) + ftValue ) ) {
             document.getElementById('result2').innerText = 'Ft fiz: ' + ( Math.ceil(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)) - Math.round(parseFloat(ftValue)) );
         } else {
-            var sumResult = sumValue * convertValue;
+            var sumResult = Math.round(parseFloat(sumValue * convertValue ));
             var endResult = Math.round(parseFloat((eurValue * convertValue ) + parseFloat(ftValue) - sumResult));
 	    if ( isNaN(endResult) ) { 
         	document.getElementById('result2').innerText = 'Forint adat hiányzik vagy rossz, írjál 0-t, ha nincs!';
