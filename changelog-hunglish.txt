@@ -1,5 +1,5 @@
-ff0dacc - fix(eurhuf): conversion - 2025-05-01
-7316935 - new(eurhuf): add popup version - 2025-05-01
-ab58e2b - new(eurhuf): backup the actual version - 2025-05-01
+24b69c1 - fix(eurhuf): rounding - 2025-05-04
+7c6c8e7 - fix(eurhuf): conversion - 2025-05-01
+dfb6925 - new(eurhuf): add popup version - 2025-05-01
+504b6dc - new(eurhuf): backup the actual version - 2025-05-01
 242fa5b - fix: sktetel - 2025-03-26
-cf3d426 - fix: jegep infos - 2025-03-25

@@ -8,7 +8,7 @@ document.getElementById('myid').addEventListener('input', function() {
     var sumValue = document.getElementById('myid').value;
     sumValue = sumValue.replace(/,/g, '.');
     if (!isNaN(sumValue) && sumValue !== '') {
-        document.getElementById('result').innerText = 'Ft: ' + Math.ceil(parseFloat(sumValue * convertValue ));
+        document.getElementById('result').innerText = 'Ft: ' + Math.round(parseFloat(sumValue * convertValue )) ;
     } else {
         document.getElementById('result').innerText = 'Csak számot írj be!';
     }
@@ -22,7 +22,7 @@ document.getElementById('myeurid').addEventListener('input', function() {
 
     if ( !isNaN(sumValue) && sumValue !== '' && ( eurValue % 5 === 0 ) && ( eurValue >=0 ) )  {
         if ( sumValue * convertValue >= eurValue * convertValue ) {  
-            document.getElementById('result2').innerText = 'Ft még: ' + ( Math.ceil(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
+            document.getElementById('result2').innerText = 'Ft még: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
     }
         else {
             document.getElementById('result2').innerText = 'Ft vissza: ' + Math.floor((  Math.round(parseFloat(eurValue * convertValue )) - Math.ceil(parseFloat(sumValue * convertValue)) )/5)*5;
