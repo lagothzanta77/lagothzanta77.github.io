@@ -1,5 +1,5 @@
-24b69c1 - fix(eurhuf): rounding - 2025-05-04
+39bbb1f - fix(eurhuf): rounding - 2025-05-04
+ce820e7 - fix(eurhuf): rounding - 2025-05-04
 7c6c8e7 - fix(eurhuf): conversion - 2025-05-01
 dfb6925 - new(eurhuf): add popup version - 2025-05-01
 504b6dc - new(eurhuf): backup the actual version - 2025-05-01
-242fa5b - fix: sktetel - 2025-03-26
