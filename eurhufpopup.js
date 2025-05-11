@@ -23,9 +23,11 @@ document.getElementById('myeurid').addEventListener('input', function() {
     if ( !isNaN(sumValue) && sumValue !== '' && ( eurValue % 5 === 0 ) && ( eurValue >=0 ) )  {
         if ( sumValue * convertValue >= eurValue * convertValue ) {  
             document.getElementById('result2').innerText = 'Ft még: ' + ( Math.round(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)));
+            document.getElementById('result2').style.color = "red";
     }
         else {
             document.getElementById('result2').innerText = 'Ft vissza: ' + Math.floor((  Math.round(parseFloat(eurValue * convertValue )) - Math.round(parseFloat(sumValue * convertValue)) )/5)*5;
+            document.getElementById('result2').style.color = "green";
         }
     } else {
         document.getElementById('result2').innerText = 'Helytelen eur!';
@@ -41,6 +43,7 @@ document.getElementById('myftid').addEventListener('input', function() {
     if ( !isNaN(sumValue) && sumValue !== '' && ( eurValue % 5 === 0 ) && !isNaN(parseFloat(ftValue)) && ( ftValue >= 0 ) )  {
         if ( (sumValue * convertValue) > ( ( eurValue * convertValue ) + ftValue ) ) {
             document.getElementById('result2').innerText = 'Ft fiz: ' + ( Math.ceil(parseFloat(sumValue * convertValue)) - Math.round(parseFloat(eurValue * convertValue)) - Math.round(parseFloat(ftValue)) );
+            document.getElementById('result2').style.color = "red";
         } else {
             var sumResult = Math.round(parseFloat(sumValue * convertValue ));
             var endResult = Math.round(parseFloat((eurValue * convertValue ) + parseFloat(ftValue) - sumResult));
@@ -48,6 +51,11 @@ document.getElementById('myftid').addEventListener('input', function() {
         	document.getElementById('result2').innerText = 'Forint adat hiányzik vagy rossz, írjál 0-t, ha nincs!';
 	    } else {
 		endMessage = endResult < 0 ? "Ft még" : "Ft vissza";
+        if ( endResult < 0 ) {
+            document.getElementById('result2').style.color = "red";
+        } else {
+            document.getElementById('result2').style.color = "green";
+        }
 		endResult  = endResult < 0 ? endResult = endResult * -1 : Math.floor(endResult/5)*5;
         	document.getElementById('result2').innerText = endMessage+': ' + endResult;
 	    }
@@ -63,5 +71,6 @@ document.getElementById('clearBtn').addEventListener('click', function() {
     document.getElementById('myid').value = '';
     document.getElementById('result').innerText = '';
     document.getElementById('result2').innerText = '';
+    document.getElementById('result2').style.color = "black";
     document.getElementById('myid').focus();
 });
