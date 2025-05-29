@@ -5,9 +5,9 @@ let badList=[];
 let randNR=0;
 let testNr=0;
 let cycleCount=0;
-let result=[ [],[],[] ];
 let badAnswers=[];
-let fLists=[	"wordbookae.txt", 
+let fLists=[	
+		"wordbookae.txt", 
 		"wordbookfj.txt", 
 		"wordbookkm.txt", 
 		"wordbooknr.txt", 
@@ -16,6 +16,31 @@ let fLists=[	"wordbookae.txt",
 
 let flistCounter=0;
 let maxPoint=0;
+let myDataBase = [];
+let tempResult=[];
+
+async function loadCSVFiles(fileNames) {
+    for (let i = 0; i < fileNames.length; i++) {
+        const response = await fetch(fileNames[i]);
+        const data = await response.text();
+        myDataBase[i] = data.split("\n").map(row => row.split(":"));
+    }
+}
+
+loadCSVFiles(fLists).then(() => {
+	fillResult(flistCounter);
+	for (let i=0;i<(tempResult.length-1);i++) {
+		listArray.push(i);
+	}
+
+	document.getElementById('mainbutton').style.display = 'none';
+	document.getElementById('repeatbutton').style.display = 'none';
+	document.getElementById('myInputTest').style.display = 'none';
+	document.getElementById('startbutton').onclick = () => { start(tempResult, 10) };
+	document.getElementById('repeatbutton').onclick = () => { repeater(badAnswers,'myInputTest') };
+	maxPoint=maxPoint+10;
+	document.getElementById('mainbutton').onclick = () => { checkInput(tempResult, 'myInputTest') };
+});
 
 function resetgen() {
 
@@ -27,6 +52,14 @@ function resetgen() {
     cycleCount=0;
 
 }
+
+function fillResult(flistCounter) {
+
+    for( let i=0;i<myDataBase[flistCounter].length;i++) {
+		tempResult.push(myDataBase[flistCounter][i]);
+	}
+}
+
 
 async function loadCSV(fName) {
     const response = await fetch(fName);
@@ -64,33 +97,46 @@ function checkInput(result, inputId ) {
             document.getElementById('inputtest').innerHTML = result[testArray[cycleCount]][2];
 	}
 	else {
-	        document.getElementById('scoring').innerHTML = pointnr+' /'+maxPoint+' pont ';
+		document.getElementById('scoring').innerHTML = pointnr+' /'+maxPoint+' pont ';
 		document.getElementById('scoring').style.display = 'block';
 		document.getElementById('scoring').style.color = 'green';
 		cycleCount=0;
 
 		flistCounter++;
+
 		if ( flistCounter < fLists.length ) {
-		  loadCSV(fLists[flistCounter]).then(result => {
-	    		resetgen();
-		        for (let i=0;i<(result.length-1);i++) {
+			resetgen();
+			tempResult.length=0;
+			fillResult(flistCounter); 
+			for (let i=0;i<(tempResult.length-1);i++) {
 				listArray.push(i);
-		        }
-		        document.getElementById('mainbutton').style.display = 'none';
-		        document.getElementById('repeatbutton').style.display = 'none';
-		        document.getElementById('myInputTest').style.display = 'none';
-			start(result, 10);
-		        maxPoint=maxPoint+10;
-			document.getElementById('scoring').style.display = 'none';
-			document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest') };
-		  }).catch(error => {
-		        console.error('Error during loading of CSV!!', error);
-		  });
+			}
+		
+  		document.getElementById('mainbutton').style.display = 'none';
+		document.getElementById('repeatbutton').style.display = 'none';
+		document.getElementById('myInputTest').style.display = 'none';
+		start(tempResult, 10);
+		maxPoint=maxPoint+10;
+		document.getElementById('scoring').style.display = 'none';
+		document.getElementById('mainbutton').onclick = () => { checkInput(tempResult, 'myInputTest') };		
 		}
 		else {
 		    document.getElementById('mainbutton').style.display = 'none';
-		    document.getElementById('repeatbutton').style.display = 'block';
-		    document.getElementById('inputtest').innerHTML = badAnswers[0][0];
+			if ( badAnswers.length > 0 ) {
+				document.getElementById('repeatbutton').style.display = 'block';
+				document.getElementById('inputtest').innerHTML = badAnswers[0][0];
+			} else {
+				flistCounter=0;
+				maxPoint=10;
+				pointnr=0;
+				resetgen();
+				tempResult.length=0;
+				fillResult(0);
+				for (let i=0;i<(tempResult.length-1);i++) {
+					listArray.push(i);
+				}
+				document.getElementById('startbutton').style.display = 'block';
+			}
 		}
 	}
     }
@@ -123,6 +169,16 @@ function repeater(badAnswers,inputId) {
 		cycleCount=0;
 	        document.getElementById('inputtest').innerHTML = badAnswers[cycleCount][0];
 	    } else {
+		flistCounter=0;
+		maxPoint=10;
+		pointnr=0;
+		resetgen();
+		tempResult.length=0;
+		fillResult(0);
+        for (let i=0;i<(tempResult.length-1);i++) {
+			listArray.push(i);
+		}
+		document.getElementById('startbutton').style.display = 'block';
 		document.getElementById('inputtest').innerHTML = 'Done!';
 		document.getElementById('repeatbutton').style.display = 'none';
 		document.getElementById('myInputTest').style.display = 'none';
@@ -144,32 +200,18 @@ function resetCode() {
     }, 3500); 
 }
 
-function start(result, maxCount) {
+function start(tempResult, maxCount) {
     for (let i=1;i<=maxCount;i++) {
 	randNr=Math.floor(Math.random() * (listArray.length));
 	testArray.push(listArray[randNr]);
 	listArray.splice(randNr,1);
     }
-	document.getElementById('startbutton').style.display = 'none';
+		document.getElementById('scoring').style.display = 'none';
+		document.getElementById('startbutton').style.display = 'none';
         document.getElementById('mainbutton').style.display = 'block';
         document.getElementById('myInputTest').style.display = 'block';
-        document.getElementById('inputtest').innerHTML = result[testArray[0]][2];
+        document.getElementById('inputtest').innerHTML = tempResult[testArray[0]][2];
 }
-
-loadCSV(fLists[0]).then(result => {
-    for (let i=0;i<(result.length-1);i++) {
-	listArray.push(i);
-    }
-    document.getElementById('mainbutton').style.display = 'none';
-    document.getElementById('repeatbutton').style.display = 'none';
-    document.getElementById('myInputTest').style.display = 'none';
-    document.getElementById('startbutton').onclick = () => { start(result, 10) };
-    document.getElementById('repeatbutton').onclick = () => { repeater(badAnswers,'myInputTest') };
-    maxPoint=maxPoint+10;
-    document.getElementById('mainbutton').onclick = () => { checkInput(result, 'myInputTest') };
-}).catch(error => {
-    console.error('Error during loading of CSV!!', error);
-});
 
 loadCSV("changelog-hunglish.txt").then(result => {
     chlogHtml = '<br><br><b>Auto-generated Changelog (last changes): </b><br>';
