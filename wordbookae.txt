@@ -7,7 +7,7 @@
 7:present:ajándékoz
 8:foundation cream:alapozó krém
 9:bargain:alkalmi vétel
-10:zoo keeper:állatkerti őr
+10:security guard:állatkerti biztonsági őr
 11:apple tree:almafa
 12:sleepy:álmos
 13:underpants:alsónadrág
@@ -30,12 +30,12 @@
 30:bus stop:buszmegálló
 31:to take a bus: autóbuszra száll
 32:tyre:autógumi
-33:motorway:autóverseny-pálya
+33:race track:autóverseny-pálya
 34:motor racing:autóverseny
 35:That will cost:Az annyi mint...
 36:beans:bab
 37:owl:bagoly
-38:the train to:vonat indul -ba...
+38:the train goes to:vonat indul -ba...(általános)
 39:to have a moustache:bajszos
 40:casualty department:baleseti osztály
 41:to turn left:balra fordul
@@ -48,14 +48,14 @@
 48:brave:bátor
 49:to pack:becsomagol
 50:to ring the bell:becsenget
-51:bell is rung:csengettek
+51:They rang the bell:csengettek
 52:I rang the bell:csengettem
 53:no entry:behajtani tilos
 54:entrance:bejárat
 55:peaceful:békés
 56:to move in:beköltözik
 57:to join in:belép valahova
-58:to answer to telephone:beleszól a telefonba
+58:to answer the telephone:beleszól a telefonba
 59:stamp:bélyeg
 60:to collect stamps:bélyeget gyűjt
 61:to introduce:bemutat valakit
@@ -112,7 +112,7 @@
 112:parcel:postai csomag
 113:packet:csomag(sima)
 114:pretty:csinos
-115:left luggage office:csomagmegőzrőben hagyta
+115:left it in the luggage office:csomagmegőzrőben hagyta
 116:wrapping:csomagolás
 117:boot:csomagtartó
 118:boot:csizma
@@ -173,11 +173,11 @@
 173:bright:élénk, okos
 174:lively:élénk,eleven
 175:pleased with:elégedett valamivel
-176:to open curtain:elhúzza a függönyt
+176:to open the curtain:elhúzza a függönyt
 177:to run away: elfut
 178:to catch the train:eléri a vonatot
 179:to start off:elindul
-180:to get engaged:eljegyezte magát
+180:to get engaged:eljegyezték v. eljegyzett vki mást
 181:to be late: elkésik
 182:to move: elköltözik
 183:to send:elküld
@@ -190,12 +190,12 @@
 190:to tear:elszakít
 191:I tore the notebook: elszakítottam a füzetet
 192:The notebook has been torn: a füzetet elszakították.
-193:to break the leg:eltörte a lábát
+193:to break a leg:eltörte a lábát
 194:singer:énekes
 195:architect:építész
 196:building:épület
 197:interesting:érdekes
-198:wood:erdő
+198:woods:erdő
 199:ripe:érett
 200:balcony:erkély
 201:It's raining:esik az eső
