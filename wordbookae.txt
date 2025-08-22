@@ -20,7 +20,7 @@
 20:complexion:arcszín
 21:exchange rate:árfolyam
 22:department store:áruház
-23:to yawn: ásít
+23:to yawn:ásít
 24:spade:ásó
 25:to cross the street:átkel az úttesten
 26:crossing:átkelés
@@ -28,7 +28,7 @@
 28:to be frozen:átfagyott
 29:coach:távolsági busz
 30:bus stop:buszmegálló
-31:to take a bus: autóbuszra száll
+31:to take a bus:autóbuszra száll
 32:tyre:autógumi
 33:race track:autóverseny-pálya
 34:motor racing:autóverseny
@@ -55,7 +55,7 @@
 55:peaceful:békés
 56:to move in:beköltözik
 57:to join in:belép valahova
-58:to answer the telephone:beleszól a telefonba
+58:to answer the telephone:felveszi a telefont
 59:stamp:bélyeg
 60:to collect stamps:bélyeget gyűjt
 61:to introduce:bemutat valakit
@@ -73,7 +73,7 @@
 73:to go shopping:bevásárol
 74:stake:bifsztek
 75:safety belt:biztonsági öv
-76:bottercup:boglárka(virág)
+76:buttercup:boglárka(virág)
 77:ankle:boka
 78:bush:bokor
 79:envelope:boríték
@@ -107,26 +107,26 @@
 107:saucer:csészealj
 108:cheque-book:csekkfüzet
 109:striped:csíkos
-110:to hang on to: csimpaszkodik valamin
-111:it hung on the lamp: lámpára akasztotta
+110:to hang on to:csimpaszkodik valamin
+111:it hung on the lamp:lámpára akasztotta
 112:parcel:postai csomag
 113:packet:csomag(sima)
 114:pretty:csinos
-115:left it in the luggage office:csomagmegőzrőben hagyta
+115:left it in the luggage office:csomagmegőrzőben hagyta
 116:wrapping:csomagolás
 117:boot:csomagtartó
-118:boot:csizma
-119:to wag ist tail:csóválja a farkát
+118:boots:egy pár csizma
+119:to wag its tail:csóválja a farkát
 120:beak:csőr
 121:summit:csúcs
 122:wrist:csukló
 123:csúszda:slide
-124:barn:csúr
+124:barn:csűr
 125:to play draugths:dámázik
 126:to have a flat tyre:defektes a kereke
 127:midday:napközben
 128:melon:dinnye
-129:to go to discotheque: diszkóba megy
+129:to go to a discotheque:diszkóba megy
 130:scenery:díszlet
 131:pig:disznó
 132:to play drums:dobol
@@ -139,20 +139,20 @@
 139:vinegar:ecet
 140:brush:ecset
 141:dessert:édesség
-142:to excercise:edz,gyakorol
+142:to exercise:edz,gyakorol
 143:to burn:ég valami
 144:burn:égési seb
 145:climate:éghajlat
 146:single room:egyágyas szoba
 147:to go stright:egyenesen menni
 148:Equator:Egyenlítő(földrajzi)
-149:I agree: egyetértek
-150:I agreed: egyetértettem,elfogadtam
-151:the same age as: egyidős valakivel
+149:I agree:egyetértek
+150:I agreed:egyetértettem,elfogadtam
+151:the same age as:egyidős valakivel
 152:together:együtt
 153:one way street:egyirányú utca
-154:a kilo of: egy kiló valamiből
-155:only son:egyke
+154:a kilo of:egy kiló valamiből
+155:only son:egyke (fiú?)
 156:hungry:éhes
 157:bedside lamp:éjjelilámpa
 158:bedside table:éjjeliszekrény
@@ -160,36 +160,36 @@
 160:shop assistant:eladó
 161:to faint:elájul
 162:to fall asleep:elaludt
-163:I fell asleep: elaludtam
+163:I fell asleep:elaludtam
 164:market stall:elárusító pult
 165:to drop:elejteni
 166:to throw:eldobni, elszórni
-167:to fire somone:elküldeni, elbocsátani valakit
+167:to fire someone:elküldeni, elbocsátani valakit
 168:to hide:elbújni
 169:to slip:elcsúszni
-170:in front of: valmi elé, előtt
+170:in front of:valami elé, előtt
 171:sharp:éles
 172:in focus:középpontban
 173:bright:élénk, okos
 174:lively:élénk,eleven
 175:pleased with:elégedett valamivel
 176:to open the curtain:elhúzza a függönyt
-177:to run away: elfut
+177:to run away:elfut
 178:to catch the train:eléri a vonatot
 179:to start off:elindul
 180:to get engaged:eljegyezték v. eljegyzett vki mást
-181:to be late: elkésik
-182:to move: elköltözik
+181:to be late:elkésik
+182:to move:elköltözik
 183:to send:elküld
-184:to go to supermarkt:elmegy a élelmiszeráruházba
+184:to go to the supermarkt:elmegy a élelmiszeráruházba
 185:starter:előétel
 186:away from:valami elől
 187:forwards:előre
 188:to overtake:előz
 189:first floor:első emelet
 190:to tear:elszakít
-191:I tore the notebook: elszakítottam a füzetet
-192:The notebook has been torn: a füzetet elszakították.
+191:I tore the notebook:elszakítottam a füzetet
+192:The notebook has been torn:a füzetet elszakították.
 193:to break a leg:eltörte a lábát
 194:singer:énekes
 195:architect:építész
@@ -210,7 +210,7 @@
 210:restaurant:étterem
 211:to row:evez
 212:It is expensive:ez drága!
-213:What size is it ?: Ez Mekkora méret?
+213:What size is it?:Ez Mekkora méret?
 214:It tastes good:Ez ízletes
 215:It's good value:ez olcsó (megfelelő).
 216:oar:evezős
