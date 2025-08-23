@@ -1,5 +1,5 @@
-9d65b55 - fix(hunglish): fix typos - 2025-08-22
+dceb689 - fix(hunglish): grammar fixing - 2025-08-23
+9593a32 - fix(hunglish): fix typos in w.book.fj - 2025-08-23
+f3c795d - fix(hunglish): fix typos - 2025-08-22
 e7470d1 - fix: wordbook a-e reviewed by Adri - 2025-06-12
 918f9bd - fix(hunglish): convert to semi-offline mode - 2025-05-29
-6869a86 - new(eurhuf): set colors - 2025-05-11
-3188f1e - fix(eurhuf): rounding - 2025-05-04
