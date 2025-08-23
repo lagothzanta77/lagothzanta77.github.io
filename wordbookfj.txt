@@ -5,7 +5,7 @@
 5:to have a stomach ache:fáj a hasa
 6:to have a toothache:fáj a foga
 7:dull:fakó
-8:to play squash:fallabdázik
+8:to play squash:fal-labdázik
 9:jeans:farmernadrág
 10:tail:farok
 11:board:fedélzet
@@ -27,7 +27,7 @@
 27:to go upstairs:felmegy a lépcsőn
 28:to get dressed:felöltözik
 29:to take off:felszáll (repülőgép)
-30:to get on:felszáll(nem repülőre)
+30:to get on:felszáll (nem repülőre)
 31:to serve:felszolgál
 32:Is service included?:felszolgálási díjjal együtt?
 33:half past ten:fél 11
@@ -35,7 +35,7 @@
 35:to pick up:felvesz
 36:to pick up the receiver:felveszi a kagylót(telefon)
 37:metal:fém
-38:Delicious!:Fenséges!(finom)
+38:Delicious!:Fenséges! (finom)
 39:photographer:fényképész
 40:to take a photo:fényképez
 41:headlight:fényszúró
@@ -46,7 +46,7 @@
 46:to comb your hair:fésülködsz
 47:nest:fészek
 48:younger than:fiatalabb mint
-49:careless:figyelmetlen,óvatlan
+49:careless:figyelmetlen, óvatlan
 50:pitch:focipálya
 51:hairdresser:fodrász
 52:to brush your teeth:mosni a fogadat
@@ -61,7 +61,7 @@
 61:to be fit:formában van
 62:designer:formatervező
 63:armchair:fotel
-64:maincourse:főfogás
+64:main course:főfogás
 65:soil:föld
 66:to land:földet ér
 67:ground floor:földszint
@@ -75,13 +75,13 @@
 75:lawnmover:fűnyíró gép
 76:to have a bath:fürdik
 77:bathrobe:fürdőköpeny
-78:bathmath:fürdőszőnyeg
+78:bath mat:fürdőszoba szőnyeg
 79:with bathroom:fürdőszobával
 80:saw:fűrész
 81:grocery shop:fűszerbolt
 82:herbs:fűszernövények
 83:radiator:fűtőtest
-84:to mow the lawn:fűvet nyír
+84:to mow the lawn:füvet nyír
 85:excercise book:füzet
 86:to run a bath:fürdővizet enged
 87:wheat:gabona
@@ -91,7 +91,7 @@
 91:to score a goal:gólt lő
 92:golf club:golfütő
 93:pin:gombostű
-94:ballpen:golyóstoll
+94:ballpoint pen:golyóstoll
 95:to perch:gubbaszt
 96:wellington boots:gumicsizma
 97:to walk on foot:gyalogol
@@ -121,7 +121,7 @@
 121:to sail:hajózik, vitorlázik
 122:gangway:hajópalló
 123:hairband:hajpánt
-124:hairdrier:hajszárító
+124:hair dryer:hajszárító
 125:fishmonger:halbolt
 126:fishing boat:halászcsónak
 127:net:háló
@@ -136,7 +136,7 @@
 136:instrument:hangszer
 137:vomit:hány
 138:How old are you?:Hány éves vagy?
-139:What time is it ?:Hány óra van?
+139:What time is it?:Hány óra van?
 140:tights:harisnyanadrág
 141:quarter to ten:háromnegyed 10
 142:three o'clock:3 óra
@@ -150,8 +150,8 @@
 150:to do backstroke:háton úszik
 151:backwards:hátra
 152:to get married:házasodik
-153:wedding:eskövő
-154:caretaker:gondnok,házfelügyelő
+153:wedding:esküvő
+154:caretaker:gondnok, házfelügyelő
 155:to play the violin:hegedül
 156:climber:hegymászó
 157:butcher:hentes
@@ -211,6 +211,6 @@
 211:to turn right:fordulni jobbra
 212:Enjoy your meal!:Jó étvágyat!
 213:to have eaten well:jóllakik
-214:to have fun: jól mulat
+214:to have fun:jól mulat
 215:next week:jövő héten
 216:sheep:juh
