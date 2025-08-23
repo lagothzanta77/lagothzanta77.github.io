@@ -17,7 +17,7 @@
 17:heavy:nehéz
 18:against:ellen, szemben vmivel
 19:without:nélkül
-20:No smoking:nemdohányzó
+20:No smoking:Nemdohányzó
 21:popular:népszerű
 22:to raise:felnevel
 23:to laugh:nevet
@@ -37,7 +37,7 @@
 37:quiet:csendes
 38:to stretch:nyújtozkodik
 39:rabbit:nyúl
-40:liner:óceánjáró hajó
+40:ocean liner:óceánjáró hajó
 41:oil:olaj
 42:scissors:olló
 43:to thaw:olvad
@@ -134,7 +134,7 @@
 134:police station:rendőrőrs
 135:number plate:rendszámtábla
 136:to fly:repül
-137:areoplane:repülőgép
+137:aeroplane:repülőgép
 138:airport:reptér
 139:department:részleg, osztály (cégnél)
 140:fox:róka

@@ -6,7 +6,7 @@
 6:to earn:pénzt szerezni
 7:competition:verseny
 8:even now: még most is
-9:spend on:sporolni vmiben
+9:to spend on:költeni valamire
 10:good at:jó valamiben
 11:good for:jó valaki számára
 12:annoyed:bosszús
