@@ -87,7 +87,7 @@
 87:to belong to:tartozik valakihez
 88:tray:tálca
 89:to lean on:támaszkodni vminek
-90:to fill up with petrol
+90:to fill up with petrol:tankol
 91:subject:tantárgy
 92:plate:tányér
 93:to clap:tapsol
