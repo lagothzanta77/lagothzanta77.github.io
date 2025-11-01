@@ -1,5 +1,5 @@
-e12364c - fix(hunglish): grammar fixing - 2025-08-23
+238b153 - new(hunglish):wordbook file st - 2025-11-01
+195a600 - fix(hunglish): grammar fixing - 2025-08-23
 c1d9c4c - fix(hunglish): fix typos in w.book.fj - 2025-08-23
 f3c795d - fix(hunglish): fix typos - 2025-08-22
 e7470d1 - fix: wordbook a-e reviewed by Adri - 2025-06-12
-918f9bd - fix(hunglish): convert to semi-offline mode - 2025-05-29

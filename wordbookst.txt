@@ -1,0 +1,111 @@
+1:cheese:sajt
+2:scarf:sál
+3:lettuce:saláta
+4:apricot:sárgabarack
+5:carrot:sárgarépa
+6:corner:sarok
+7:eagle:sas
+8:tent:sátor
+9:to camp:sátorozik
+10:sour:savanyú
+11:shampoo:sampon
+12:cut:vágás(seb)
+13:surgeon:sebész
+14:sticking plaster:sebtapasz
+15:shallow:sekély
+16:saucepan:serpenyő
+17:pork chop:sertésborda
+18:ski pole:síbot
+19:ski boots:sítalp(sícipő)
+20:to ski:síel
+21:to hurry up:siet
+22:chairlift:sífelvonó
+23:straight hair:sima (egyenes) haj
+24:track:sín
+25:ham:sonka
+26:urgent message:sürgős üzenet
+27:desert:sivatag
+28:thin:sovány
+29:hedgehog:sün
+30:oven:sütő
+31:pastry:sült tészta
+32:beach:strand
+33:the sun is shining:süt a nap
+34:cake:sütemény
+35:ostrich:strucc
+36:to whisper:suttog
+37:spinach:spenót
+38:Switzerland:Svájc
+39:sports equipment:sportszerek
+40:to cry:sír (ige)
+41:to float:lebeg,sodródik
+42:to have a board:szakálla van
+43:to stay in a hotel:szállodában lakik
+44:porter:szállodai boy
+45:napkin:szalvéta
+46:donkey:szamár
+47:bill:számla
+48:to calculate:számol
+49:sledge:szánkó
+50:sandals:szandál
+51:szappan:soap
+52:cloathes peg:szárítócsipesz
+53:washing line:szárítókötél
+54:wing:szárny
+55:carrier bag:szatyor
+56:daisy:százszorszép
+57:chair:szék
+58:to vote:szavaz
+59:tame:szelíd
+60:broad:széles
+61:width:szélesség
+62:windscreen:szélvédő
+63:opposite:szembe/szemben
+64:crew:legénység
+65:dustman:szemetes
+66:litter bin:szemeteskuka
+67:naughty:szemtelen
+68:hay:széna
+69:haystack:szénakazal
+70:mascara:szempillafesték
+71:plum:szilva
+72:crayon:szines ceruza
+73:obrdient:szófogadó
+74:skirt:szoknya
+75:stage:szinpad
+76:thirsty:szomjas
+77:wheeping willow:szomorúfűz
+78:hard-working:szorgalmas
+79:to have blond hair:szőke haja van
+80:grape:szőlő(gyümölcs)
+81:vineyard:szőlőskert
+82:mosquito:szúnyog
+83:to sting:szúr
+84:tight:szoros
+85:narrow:szűk
+86:pill:tabletta
+87:to belong to:tartozik valakihez
+88:tray:tálca
+89:to lean on:támaszkodni vminek
+90:to fill up with petrol
+91:subject:tantárgy
+92:plate:tányér
+93:to clap:tapsol
+94:to dial:tárcsáz(telefon)
+95:society:társadalom
+96:wheelbarrow:talicska
+97:spring:tavasz
+98:to hold:tart vmit
+99:far away from:távol vmitől
+100:to hail a taxi:taxit leint
+101:telescope:távcső
+102:dance floor:táncparkett
+103:biscuit:teasütemény
+104:teapot:teáskanna
+105:rectangle:téglalap
+106:cowshed:tehénistálló
+107:lorry:teherautó
+108:to multiply:szorozni
+109:to pick:szüretel
+110:rug:rongyszőnyeg
+111:to windsurf:szörfözik
