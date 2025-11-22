@@ -25,7 +25,7 @@
 25:ham:sonka
 26:urgent message:sürgős üzenet
 27:desert:sivatag
-28:thin:sovány
+28:thin:vékony
 29:hedgehog:sün
 30:oven:sütő
 31:pastry:sült tészta
@@ -39,7 +39,7 @@
 39:sports equipment:sportszerek
 40:to cry:sír (ige)
 41:to float:lebeg,sodródik
-42:to have a board:szakálla van
+42:to have a beard:szakálla van
 43:to stay in a hotel:szállodában lakik
 44:porter:szállodai boy
 45:napkin:szalvéta
@@ -67,10 +67,10 @@
 67:naughty:szemtelen
 68:hay:széna
 69:haystack:szénakazal
-70:mascara:szempillafesték
+70:mascara:szempillaspirál
 71:plum:szilva
 72:crayon:szines ceruza
-73:obrdient:szófogadó
+73:obedient:szófogadó
 74:skirt:szoknya
 75:stage:szinpad
 76:thirsty:szomjas
@@ -106,6 +106,6 @@
 106:cowshed:tehénistálló
 107:lorry:teherautó
 108:to multiply:szorozni
-109:to pick:szüretel
+109:to pick:felvesz,leszed
 110:rug:rongyszőnyeg
 111:to windsurf:szörfözik
