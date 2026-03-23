@@ -33,7 +33,7 @@
 33:to lay eggs:tojást tojik
 34:pencil case:tolltartó
 35:tennis shoes:tornacipő
-36:cake torta
+36:cake:torta
 37:crowd:tömeg(sok ember)
 38:to wipe:törölget
 39:landlord:tulajdonos(háziúr főbérlő)
@@ -115,21 +115,3 @@
 114:bruise:zúzódás
 115:paperback:zsebkönyv
 116:roll:zsemle
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

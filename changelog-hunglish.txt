@@ -1,5 +1,5 @@
-4e080b0 - fix(hunglish):grammar fix by Adri - 2025-11-22
+6466923 - fix(hunglish): csv in wordbooktz - 2026-03-23
+87d795b - new(hunglish):new wordbook file - 2026-03-23
+2ed39b1 - fix(hunglish):grammar fix by Adri - 2025-11-22
 a20096d - fix(hunglish):missing translate in wordbookst - 2025-11-01
 6e33169 - new(hunglish):wordbook file st - 2025-11-01
-195a600 - fix(hunglish): grammar fixing - 2025-08-23
-c1d9c4c - fix(hunglish): fix typos in w.book.fj - 2025-08-23
