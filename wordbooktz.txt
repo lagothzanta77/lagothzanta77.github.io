@@ -1,0 +1,135 @@
+1:narrow:szűk(utca)
+2:tight:szűk(gatya)
+3:mosquito:szúnyog
+4:to sting:szúr
+5:pill:tabletta
+6:tray:tálca
+7:to fill up with petrol:tankol(benzint)
+8:to belong to:tartozik vmihez/vkihez
+9:lesson:tanóra
+10:to clap:tapsol
+11:far:távol
+12:to hail a taxi:leint egy taxit
+13:teapot:teáskanna
+14:biscuit:teasütemény
+15:rectangle:téglalap
+16:the day before yesterday:tegnapelőtt
+17:cowshed:tehénistálló
+18:lorry driver:teherautó sofőr
+19:goods train:tehervonat
+20:cream:tejszín
+21:tortoise:teknős
+22:funeral:temetés
+23:cemetery:temető
+24:square:tér(utca)
+25:seafood:tengeri herkentyű(kaja)
+26:to be seasick:tengeribeteg
+27:guinea pig:tengerimalac
+28:knee:térd
+29:to kneel:térdepel
+30:table cloth:terítő
+31:camel:teve
+32:Yours faithfully:Tisztelettel(levél végén)
+33:to lay eggs:tojást tojik
+34:pencil case:tolltartó
+35:tennis shoes:tornacipő
+36:cake torta
+37:crowd:tömeg(sok ember)
+38:to wipe:törölget
+39:landlord:tulajdonos(háziúr főbérlő)
+40:overtime:túlóra
+41:to sneeze:tüsszög
+42:fireman:tűzoltó
+43:fire engine:tűzoltó autó
+44:henhouse:tyúkól
+45:courtyard:udvar
+46:polite:udvarias
+47:rude:udvariatlan
+48:article:újságcikk
+49:newspaper stand:újságos bódé
+50:niece:unokahúg
+51:nephew:unokaöcs
+52:swimming pool:uszoda
+53:check-in:utasfelvétel
+54:to ask the way:útbaigazítást kér
+55:street light:utcai lámpa
+56:Yours sincerely:Üdvözlettel(levél végém)
+57:signpost:útjelző tábla
+58:seat:ülőhely
+59:to follow:követ vkit
+60:to plant:ültet
+61:to celebrate:ünnepel
+62:form:űrlap
+63:collision:ütközés
+64:bottle:üveg(amiben lötty van)
+65:bowl:edény
+66:shopkeeper:üzlettulajdonos
+67:dinner:vacsora
+68:wild flowers:vadvirágok
+69:mole:vakond
+70:trowel:vakolókanál
+71:election:választás
+72:duty free shop:vámmentes bolt
+73:customs officer:vámtiszt
+74:Have you any small change?:Van aprópénze?
+75:to wait for:vár valakire
+76:shoulder:váll
+77:to sew:varr
+78:to iron:vasal
+79:needle:varrótű
+80:aisle:vásárlótér
+81:town hall:városháza
+82:carriage:vasúti kocsi
+83:fork:vasvilla
+84:Help yourselves!:Vegyetek!
+85:sparrow:veréb
+86:disaster:vészhelyzet, katasztrófa
+87:to sow:vet
+88:comic:vicclap
+89:Beware of the dog!:Vigyázz!A kutya harap.
+90:storm:vihar
+91:to switch the light on:villanyt felkapcsol
+92:electric shaver:villanyborotva
+93:traffic lights:villanyrendőr
+94:flowerbed:virágágy
+95:florist:virágbolt
+96:bunch of flowers:virágcsokor
+97:flowered:virágmentes
+98:to carry:visz,cipel
+99:Encore!:Vissza!
+100:to fetch:visszahoz
+101:fare:viteldíj
+102:to retire:visszavonul
+103:tap:vízcsap
+104:plumber:vízszerelő
+105:to waterski:vizisízni
+106:to sit an exam:vizsgát tesz
+107:ruler:vonalzó
+107:bucket:vödör
+108:orchestra:zenekar
+109:socks:zokni
+110:beans:zöldbab
+111:pea:zöldborsó
+112:vegetables:zöldség
+113:to have a shower:zuhanyozik
+114:bruise:zúzódás
+115:paperback:zsebkönyv
+116:roll:zsemle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
