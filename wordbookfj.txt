@@ -38,7 +38,7 @@
 38:Delicious!:Fenséges! (finom)
 39:photographer:fényképész
 40:to take a photo:fényképez
-41:headlight:fényszúró
+41:headlight:fényszóró
 42:to paint:fest
 43:painting:festmény
 44:painter:festőművész

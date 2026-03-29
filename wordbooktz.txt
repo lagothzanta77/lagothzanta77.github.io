@@ -80,7 +80,7 @@
 80:aisle:vásárlótér sorok között
 81:town hall:városháza
 82:carriage:vasúti kocsi
-83:Pitchfork:vasvilla
+83:pitchfork:vasvilla
 84:Help yourselves!:Vegyetek!
 85:sparrow:veréb
 86:disaster:vészhelyzet, katasztrófa
