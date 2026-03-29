@@ -71,39 +71,39 @@
 71:election:választás
 72:duty free shop:vámmentes bolt
 73:customs officer:vámtiszt
-74:Have you any small change?:Van aprópénze?
+74:Do you have any small change?:Van aprópénze?
 75:to wait for:vár valakire
 76:shoulder:váll
 77:to sew:varr
 78:to iron:vasal
 79:needle:varrótű
-80:aisle:vásárlótér
+80:aisle:vásárlótér sorok között
 81:town hall:városháza
 82:carriage:vasúti kocsi
-83:fork:vasvilla
+83:Pitchfork:vasvilla
 84:Help yourselves!:Vegyetek!
 85:sparrow:veréb
 86:disaster:vészhelyzet, katasztrófa
 87:to sow:vet
-88:comic:vicclap
+88:comic:képregény
 89:Beware of the dog!:Vigyázz!A kutya harap.
 90:storm:vihar
 91:to switch the light on:villanyt felkapcsol
 92:electric shaver:villanyborotva
-93:traffic lights:villanyrendőr
+93:traffic lights:forgalomirányító lámpa
 94:flowerbed:virágágy
 95:florist:virágbolt
 96:bunch of flowers:virágcsokor
-97:flowered:virágmentes
+97:flowered:virágos vagy kivirágzott
 98:to carry:visz,cipel
 99:Encore!:Vissza!
 100:to fetch:visszahoz
 101:fare:viteldíj
-102:to retire:visszavonul
+102:to retire:visszavonul (munkából)
 103:tap:vízcsap
 104:plumber:vízszerelő
 105:to waterski:vizisízni
-106:to sit an exam:vizsgát tesz
+106:to take an exam:vizsgát tesz
 107:ruler:vonalzó
 107:bucket:vödör
 108:orchestra:zenekar
