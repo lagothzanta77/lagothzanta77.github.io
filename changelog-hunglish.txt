@@ -1,5 +1,5 @@
-0923d98 - fix(hunglish): fix grammar by Adri - 2026-03-29
-a3152cf - fix(hunglish): fix typos - 2026-03-29
+1e0651d - fix(hunglish): fix typo in fj file - 2026-03-29
+f033a59 - fix(hunglish): fix grammar by Adri - 2026-03-29
+48e2670 - fix(hunglish): fix typos - 2026-03-29
 c39ee2f - new(hunglish): activate new wordbook file - 2026-03-29
 ea3c63b - fix(hunglish): grammar fix by Adri in wordbooktz - 2026-03-29
-bfd9a27 - fix(hunglish): csv in wordbooktz - 2026-03-23

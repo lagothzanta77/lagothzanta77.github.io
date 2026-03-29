@@ -182,7 +182,7 @@
 182:meat:hús
 183:to pull:húz
 184:fridge:hűtőszekrény
-185:thumb:hüvelyujj
+185:thumb:hüvelykujj
 186:on time:időben
 187:weather forecast:időjárás előrejelzés
 188:frightened:ijedt
