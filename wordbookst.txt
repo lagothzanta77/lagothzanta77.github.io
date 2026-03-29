@@ -59,7 +59,7 @@
 59:tame:szelíd
 60:broad:széles
 61:width:szélesség
-62:windscreen:szélvédő
+62:windshield:szélvédő
 63:opposite:szembe/szemben
 64:crew:legénység
 65:dustman:szemetes
