@@ -1,5 +1,5 @@
-eb49334 - new(hunglish): activate new wordbook file - 2026-03-29
-b567bc6 - fix(hunglish): grammar fix by Adri in wordbooktz - 2026-03-29
+0923d98 - fix(hunglish): fix grammar by Adri - 2026-03-29
+a3152cf - fix(hunglish): fix typos - 2026-03-29
+c39ee2f - new(hunglish): activate new wordbook file - 2026-03-29
+ea3c63b - fix(hunglish): grammar fix by Adri in wordbooktz - 2026-03-29
 bfd9a27 - fix(hunglish): csv in wordbooktz - 2026-03-23
-8ba3fb3 - new(hunglish):new wordbook file - 2026-03-23
-2ed39b1 - fix(hunglish):grammar fix by Adri - 2025-11-22
