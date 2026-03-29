@@ -11,6 +11,8 @@ let fLists=[
 		"wordbookfj.txt", 
 		"wordbookkm.txt", 
 		"wordbooknr.txt", 
+		"wordbookst.txt",
+		"wordbooktz.txt",
 		"workbooknew.txt" 
 ];
 
